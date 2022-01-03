@@ -1,0 +1,51 @@
+.services h1{
+    font-weight: bold;
+}
+
+.services h4{
+    font-style: italic;
+}
+
+.service-2, .service-3, .service-4, .service-5, .service-6{
+    border-top:1px solid #eee;
+    padding: 150px 5vw;
+}
+
+.service-1{
+    padding: 100px 5vw;
+}
+
+.service-pic-box {
+    overflow: hidden;
+    height:400px;
+    box-shadow: -10px 20px 30px #999;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+.service-pic-box img{
+    object-position: center;
+    object-fit: cover;
+    width:100%;
+    min-height: 400px;
+}
+
+.service-3 .row, .service-4 .row, .service-6 .row{
+    flex-direction: row-reverse;
+}
+
+
+
+
+/* MEDIA QUERY ================================================== */
+@media only screen and (max-width: 991px) {
+    h1{
+        text-align: center;
+    }
+    .service-2, .service-3, .service-4, .service-5, .service-6{
+        padding: 100px 5vw;
+    }
+}
