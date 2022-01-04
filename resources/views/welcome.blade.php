@@ -22,7 +22,7 @@
             <div class="text-center dropdown-lang-title">
                 <div class="d-flex align-items-center">
                     <p>LANGUAGE</p>
-                    <img class="px-2" src="/icons/arrow-down.ico">
+                    <img class="px-2" src="/icons/arrow-down.png">
                 </div>
                 <div class="dropdown-lang text-center">
                     <p class="lang-active" id='en' >ENGLISH</p>
@@ -33,7 +33,7 @@
             <div class="d-flex align-items-center">
                 <img class="px-2" src="/icons/phone.png">
                 <p>+40 21 336 30 76/77</p>
-                <img class="pl-4 pr-2" src="/icons/email.ico">
+                <img class="pl-4 pr-2" src="/icons/email.png">
                 <p>techno.engineering@technoeng.com</p>
             </div>
         </header>
@@ -51,7 +51,7 @@
                 <li class="nav-item"><a id='about'>ABOUT</a></li>
                 <li class="nav-item"><a id='services'>SERVICES</a></li>
                 <li class="nav-item"><a id='portfolio'>PORTFOLIO</a></li>
-                <li class="nav-item"><a id='publications'>PUBLICATIONS</a></li>
+                <li class="nav-item"><a href='/publications' target='_blank' id='publications'>PUBLICATIONS</a></li>
                 <li class="nav-item"><a id='contact'>CONTACT</a></li>
                 <li class="nav-item"><a id='careers'>CAREERS</a></li>
             </ul>
@@ -75,7 +75,7 @@
                     <li><a id='mob-about'>ABOUT</a></li>
                     <li><a id='mob-services'>SERVICES</a></li>
                     <li><a id='mob-portfolio'>PORTFOLIO</a></li>
-                    <li><a id='mob-publications'>PUBLICATIONS</a></li>
+                    <li><a href='/publications' target='_blank' id='mob-publications'>PUBLICATIONS</a></li>
                     <li><a id='mob-contact'>CONTACT</a></li>
                     <li><a id='mob-careers'>CAREERS</a></li>
                 </ul>
@@ -98,22 +98,22 @@
                     <div class="row d-flex justify-content-center">
                         <div class="col-lg-6">
                             <div class="d-flex align-items-center pub-box">
-                                <div class="footer-img my-2 mr-2"><img src="/img/1.jpg"></div>
-                                <p>Techno Engineering & Associates group wins prestigious World Quality Commitment Award</p>
+                                <div class="footer-img my-2 mr-2"><img src="/img/blog1.jpg"></div>
+                                <p>Techno Engineering & Associates Group is the appointed Counsel for the Claimants...</p>
                             </div>
                             <div class="d-flex align-items-center pub-box">
-                                <div class="footer-img my-2 mr-2"><img src="/img/2.jpg"></div>
-                                <p class="background:orange;">Techno Engineering & Associates group wins prestigious World Quality Commitment Award</p>
+                                <div class="footer-img my-2 mr-2"><img src="/img/blog2.jpg"></div>
+                                <p class="background:orange;">No win, no fee!<br>We handle a vast majority of compensation...</p>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="d-flex align-items-center pub-box">
-                                <div class="footer-img my-2 mr-2"><img src="/img/1.jpg"></div>
-                                <p>Techno Engineering & Associates group wins prestigious World Quality Commitment Award</p>
+                                <div class="footer-img my-2 mr-2"><img src="/img/blog3.jpg"></div>
+                                <p>Today we have the pleasure of congratulating our Claims Manager and Head of Contracts ...</p>
                             </div>
                             <div class="d-flex align-items-center pub-box">
-                                <div class="footer-img my-2 mr-2"><img src="/img/2.jpg"></div>
-                                <p>Techno Engineering & Associates group wins prestigious World Quality Commitment Award</p>
+                                <div class="footer-img my-2 mr-2"><img src="/img/blog4.jpg"></div>
+                                <p>We are thrilled to announce that on 16 November, Mr. Giovanni Di Folco will attend ...</p>
                             </div>
                         </div>
                     </div>
@@ -121,9 +121,9 @@
                 <div class="col-lg-3 col-md-4 col-sm-4 d-flex flex-column align-items-center text-center py-5">
                     <h4 class="my-4">Get In Touch</h4>
                     <p class="m-0 pb-3">Are you looking for a new job?<br>We have available a few positions !</p>
-                    <button class="btn-blue" type="button">Take a look</button>
+                    <button class="btn-blue" type="button" id='careers-short-btn'>Take a look</button>
                     <p class="m-0 py-2">OR</p>
-                    <button class="btn-blue mb-5" type="button">Write us now</button>
+                    <button class="btn-blue mb-5" type="button" id='contact-short-btn'>Write us now</button>
                 </div>
             </div>
         </footer>
@@ -134,7 +134,7 @@
                 <p class="m-0 p-2">Copyright &copy; 2021 Techono Engineering &amp; Associates. All rights reserved.</p>
             </div>
             <div class="col-xl-5 col-lg-4 col-md-3 text-center m-0 p-2">
-                <a href="#">LEGAL NOTICE</a>
+                <a target='_blank' href="/legal-notice">LEGAL NOTICE</a>
             </div>
         </div>
 

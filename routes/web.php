@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TEAController;
+use App\Mail\TEAMail;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/legal-notice', function () {
+    return view('legal-notice');
+});
 
 Route::get('/home', function(){
     return view('home');
@@ -49,6 +53,9 @@ Route::get('/contact', function(){
     return view('contact');
 });
 Route::get('/send-email', [TEAController::class, 'SendEmail']);
+Route::get('/email', function(){
+    return new TEAMail();
+});
 
 
 Route::get('/careers', function(){

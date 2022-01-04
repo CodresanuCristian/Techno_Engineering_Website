@@ -1,81 +1,52 @@
-<div class='portfolio row'>
-    <div class='content col-md-11'>
-        <!-- CHAPTER 1 ================================================== -->
-        <div id='portfolio-chapter1'>
-            <div class='title'>
-                <h1>National Roads &amp; Motorways</h1>
-            </div>
-            <div class='d-flex justify-content-center flex-wrap my-5 py-5'>
-                @for ($i=1; $i<=16; $i++)
-                    <div class="album-box" id="album-box{{$i}}">
-                        <img src='/img/1.jpg'>
-                        <div class="album-box-text">
-                            <h5 id="album-box-text{{$i}}">National roads</h5>
-                        </div>
+<div class='portfolio'>
+    <nav class="portfolio-nav my-5 container">
+        <ul class="nav">
+            <li><a class="portfolio-active" id="portfolio1">National roads &amp; motorway</a></li>
+            <li><a id="portfolio2">Railways &amp; metro</a></li>
+            <li><a id="portfolio3">WWTP</a></li>
+            <li><a id="portfolio4">Miscellaneous</a></li>
+        </ul>
+    </nav>
+    <div class='container-fluid album-wrap'>
+        <div class="my-5 album" id='national'>
+            @for ($i=1; $i<=20; $i++)
+                <div class="album-box" id="album-pic{{$i}}">
+                    <img>
+                    <div class="album-text">
+                        <h5 id="album-text{{$i}}"></h5>
                     </div>
-                @endfor
-            </div>
-            <div id='end-chapter1'></div>
+                </div>
+            @endfor
         </div>
-        <!-- CHAPTER 2 ================================================== -->
-        <div id='portfolio-chapter2'>
-            <div class='title'>
-                <h1>Railways &amp; Metro</h1>
-            </div>
-            <div class='d-flex justify-content-center flex-wrap my-5 py-5'>
-                @for ($i=1; $i<=20; $i++)
-                    <div class="album-box" id="album-box{{$i}}">
-                        <img src='/img/2.jpg'>
-                        <div class="album-box-text">
-                            <h5 id="album-box-text{{$i}}">Railways</h5>
-                        </div>
+        <div class="my-5 album" id='railways'>
+            @for ($i=1; $i<=10; $i++)
+                <div class="album-box" id="album-pic{{$i}}">
+                    <img>
+                    <div class="album-text">
+                        <h5 id="album-text{{$i}}"></h5>
                     </div>
-                @endfor
-            </div>
-            <div id='end-chapter2'></div>
+                </div>
+            @endfor
         </div>
-        <!-- CHAPTER 3 ================================================== -->
-        <div id='portfolio-chapter3'>
-            <div class='title'>
-                <h1>WWTP</h1>
-            </div>
-            <div class='d-flex justify-content-center flex-wrap my-5 py-5'>
-                @for ($i=1; $i<=13; $i++)
-                    <div class="album-box" id="album-box{{$i}}">
-                        <img src='/img/3.jpg'>
-                        <div class="album-box-text">
-                            <h5 id="album-box-text{{$i}}">WWTP</h5>
-                        </div>
+        <div class="my-5 album" id='wwtp'>
+            @for ($i=1; $i<=5; $i++)
+                <div class="album-box" id="album-pic{{$i}}">
+                    <img>
+                    <div class="album-text">
+                        <h5 id="album-text{{$i}}"></h5>
                     </div>
-                @endfor
-            </div>
-            <div id='end-chapter3'></div>
+                </div>
+            @endfor
         </div>
-        <!-- CHAPTER 4 ================================================== -->
-        <div id='portfolio-chapter4'>
-            <div class='title'>
-                <h1>Miscellaneous</h1>
-            </div>
-            <div class='d-flex justify-content-center flex-wrap my-5 py-5'>
-                @for ($i=1; $i<=10; $i++)
-                    <div class="album-box" id="album-box{{$i}}">
-                        <img src='/img/4.jpg'>
-                        <div class="album-box-text">
-                            <h5 id="album-box-text{{$i}}">Miscellaneous</h5>
-                        </div>
+        <div class="my-5 album" id='miscel'>
+            @for ($i=1; $i<=40; $i++)
+                <div class="album-box" id="album-pic{{$i}}">
+                    <img>
+                    <div class="album-text">
+                        <h5 id="album-text{{$i}}"></h5>
                     </div>
-                @endfor
-            </div>
-            <div id='end-chapter4'></div>
-        </div>
-    </div>
-    <!-- CONTROL BAR -->
-    <div class='col-md-1'>
-        <div class='nav-bar'>
-            <div class='bullet bullet-active' id='bullet1' data-toggle="tooltip" data-placement="left" title="National Roads & Motorways"></div>
-            <div class='bullet' id='bullet2' data-toggle="tooltip" data-placement="left" title="Railways & Metro"></div>
-            <div class='bullet' id='bullet3' data-toggle="tooltip" data-placement="left" title="WWTP"></div>
-            <div class='bullet' id='bullet4' data-toggle="tooltip" data-placement="left" title="Miscellaneous"></div>
+                </div>
+            @endfor
         </div>
     </div>
 </div>

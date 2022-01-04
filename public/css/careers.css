@@ -76,7 +76,7 @@
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,7 +176,7 @@
     height: 400px;
     width: 400px;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
 }
 
 .testimonials .footer .employee-box{

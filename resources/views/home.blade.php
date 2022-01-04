@@ -18,7 +18,7 @@
     </div>
     <div class="home-about-box2"></div>
 </div>
-
+{{--  --}}
 
 
 
@@ -38,7 +38,7 @@
                 <div class="carousel-item active">
                     <div class="col-md-4">
                         <div class="card text-center">
-                            <img class="img-fluid" src="/img/1.jpg">
+                            <img class="img-fluid" src="/img/service1.jpg">
                             <div class="card-body">
                                 <h5>Contract Management Assistance</h5>
                                 <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
@@ -49,7 +49,7 @@
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card text-center">
-                            <img class="img-fluid" src="/img/2.jpg">
+                            <img class="img-fluid" src="/img/service2.jpg">
                             <div class="card-body">
                                 <h5>Claims &amp; Disputes Resolution</h5>
                                 <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
@@ -60,7 +60,7 @@
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card text-center">
-                            <img class="img-fluid" src="/img/1.jpg">
+                            <img class="img-fluid" src="/img/service3.jpg">
                             <div class="card-body">
                                 <h5>Quantity Surveying</h5>
                                 <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
@@ -71,7 +71,7 @@
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card text-center">
-                            <img class="img-fluid" src="/img/2.jpg">
+                            <img class="img-fluid" src="/img/service4.jpg">
                             <div class="card-body">
                                 <h5>Planning &amp; Progress Monitoring</h5>
                                 <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
@@ -82,9 +82,20 @@
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card text-center">
-                            <img class="img-fluid" src="/img/1.jpg">    
+                            <img class="img-fluid" src="/img/service5.jpg">    
                             <div class="card-body">
-                                <h5>Trendering &amp; Procurement</h5>
+                                <h5>Tendering &amp; Procurement</h5>
+                                <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <img class="img-fluid" src="/img/service6.jpg">    
+                            <div class="card-body">
+                                <h5>Value Engineering</h5>
                                 <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
                             </div>
                         </div>
@@ -111,7 +122,7 @@
 <!-- PARALLAX -->
 <div class="home-parallax">
     <div class="home-parallax-text d-flex justify-content-center align-items-center">
-        <h1 class="text-center px-5">Subscribe To Our Newsletter. Subscribe To Our Newsletter</h1>
+        <h1 class="text-center px-5">We tailor our business to serve yours.</h1>
     </div>
 </div>
 

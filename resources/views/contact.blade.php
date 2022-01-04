@@ -14,7 +14,7 @@
                 <!-- Address -->
                 <div class='contact-address'>
                     <div class='d-flex align-items-center mt-4 mb-1'>
-                        <div class='round-img mr-2'><img src='/icons/email.ico'></div>
+                        <div class='round-img mr-2'><img src='/icons/map.png'></div>
                         <h5>Address</h5>
                     </div>
                     <p class='mb-5'>22 Muzelor Street, Sector 4, 040191, Bucharest, Romania</p>
@@ -22,7 +22,7 @@
                 <!-- Phone -->
                 <div class='contact-phone'>
                     <div class='d-flex align-items-center mt-4 mb-1'>
-                        <div class='round-img mr-2'><img src='/icons/email.ico'></div>
+                        <div class='round-img mr-2'><img src='/icons/phone.png'></div>
                         <h5>Phone</h5>
                     </div>
                     <p class='mb-5'>+40 21 336 30 76/77</p>
@@ -30,7 +30,7 @@
                 <!-- Fax -->
                 <div class='contact-fax'>
                     <div class='d-flex align-items-center mt-4 mb-1'>
-                        <div class='round-img mr-2'><img src='/icons/email.ico'></div>
+                        <div class='round-img mr-2'><img src='/icons/fax.png'></div>
                         <h5>Fax</h5>
                     </div>
                     <p class='mb-5'>+40 21 336 30 78</p>
@@ -38,7 +38,7 @@
                 <!-- Email -->
                 <div class='contact-email'>
                     <div class='d-flex align-items-center mt-4 mb-1'>
-                        <div class='round-img mr-2'><img src='/icons/email.ico'></div>
+                        <div class='round-img mr-2'><img src='/icons/email.png'></div>
                         <h5>Email</h5>
                     </div>
                     <p class='mb-5'>techno.engineering@technoeng.com</p>
@@ -84,8 +84,11 @@
         </div>
 
         <!-- RIGHT SIDE -->
-        <div class='col-xl-5 col-md-12 right-side'>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.577830396339!2d26.09785641552291!3d44.42130807910252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff11c9e0a54f%3A0xb7dbe59d22944707!2sStrada%20Muzelor%2022%2C%20Bucure%C8%99ti!5e0!3m2!1sen!2sro!4v1628784162876!5m2!1sen!2sro" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class='map-wrap col-xl-5 col-md-12 right-side d-flex justify-content-center align-items-center'>
+            <div class="spinner-border text-success"></div>
+            <div class='map'>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.577830396339!2d26.09785641552291!3d44.42130807910252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff11c9e0a54f%3A0xb7dbe59d22944707!2sStrada%20Muzelor%2022%2C%20Bucure%C8%99ti!5e0!3m2!1sen!2sro!4v1628784162876!5m2!1sen!2sro" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
     </div>
 </div>

@@ -1,74 +1,59 @@
 $(document).ready(function(){
+    $('.portfolio .portfolio-nav').on('click','ul li a', function(){
+        let nav_link_id = $(this).attr('id');
+    
+        $('.portfolio .portfolio-nav ul li a').removeClass('portfolio-active');
+        $("#"+nav_link_id).addClass('portfolio-active');
+    
+        let img_path = '';
+        let text_path = '';
+        let album_id = '';
+        let box_numb = 0;
+        if (nav_link_id == 'portfolio1') {img_path = '1'; text_path = 'National roads';     box_numb = 20; album_id = '#national';}
+        if (nav_link_id == 'portfolio2') {img_path = '2'; text_path = 'Railways and metro'; box_numb = 10; album_id = '#railways';}
+        if (nav_link_id == 'portfolio3') {img_path = '3'; text_path = 'WWTP';               box_numb = 5;  album_id = '#wwtp';}
+        if (nav_link_id == 'portfolio4') {img_path = '4'; text_path = 'Miscellaneous';      box_numb = 40; album_id = '#miscel';}
 
-    // TOOLTIP =====================================
-    $('[data-toggle="tooltip"]').tooltip();
+        $('.portfolio .album-wrap').fadeOut('slow', function(){
+            $('.portfolio #national').css({'display':'none'});
+            $('.portfolio #railways').css({'display':'none'});
+            $('.portfolio #wwtp').css({'display':'none'});
+            $('.portfolio #miscel').css({'display':'none'});
+
+            if (album_id == '#national') $('.portfolio #national').css({'display':'flex'});
+            if (album_id == '#railways') $('.portfolio #railways').css({'display':'flex'});
+            if (album_id == '#wwtp')     $('.portfolio #wwtp').css({'display':'flex'});
+            if (album_id == '#miscel')   $('.portfolio #miscel').css({'display':'flex'});
+
+            for(let i=1; i<=box_numb; i++){
+                $('#album-pic'+i+' img').attr('src','/img/'+img_path+'.jpg');
+                $('#album-text'+i).html(text_path);
+            }
+        }).fadeIn('slow');
+    });
+    
 
 
-    // OUR PORTFOLIO - ALBUM HOVER =============================================
-    $('.portfolio .content').on('mouseenter', '.album-box', function(){
+
+    // DEFAULT NATIONAL ROADS AND MOTORWAY
+    for(let i=1; i<=20; i++){
+        $('#album-pic'+i+' img').attr('src','/img/'+1+'.jpg');
+        $('#album-text'+i).html('National roads');
+    }
+
+
+    
+    // BOX HOVER 
+    $('.portfolio .album').on('mouseenter', '.album-box', function(){
         let box_id = $(this).attr('id');  
         $('#'+box_id+' img').animate({marginTop: '-150px'});
     });
-    $('.portfolio .content').on('mouseleave', '.album-box', function(){
+    $('.portfolio .album').on('mouseleave', '.album-box', function(){
         let box_id = $(this).attr('id');  
         $('#'+box_id+' img').animate({marginTop: '-0px'});
     });
 
-
-
-    // SCROLL ==============================================================
-    $(document).on('scroll', function(){
-        if (($('#portfolio-chapter1 .title').inView('both') == true) || ($('#end-chapter1').inView('both') == true)){
-            for (let i=1; i<5; i++)
-                $('#bullet'+i).removeClass('bullet-active');
-            $('#bullet1').addClass('bullet-active');
-        }
-        if (($('#portfolio-chapter2 .title').inView('both') == true) || ($('#end-chapter2').inView('both') == true)){
-            for (let i=1; i<5; i++)
-                $('#bullet'+i).removeClass('bullet-active');
-            $('#bullet2').addClass('bullet-active');
-        }
-        if (($('#portfolio-chapter3 .title').inView('both') == true) || ($('#end-chapter3').inView('both') == true)){
-            for (let i=1; i<5; i++)
-                $('#bullet'+i).removeClass('bullet-active');
-            $('#bullet3').addClass('bullet-active');
-        }
-        if (($('#portfolio-chapter4 .title').inView('both') == true) || ($('#end-chapter4').inView('both') == true)){
-            for (let i=1; i<5; i++)
-                $('#bullet'+i).removeClass('bullet-active');
-            $('#bullet4').addClass('bullet-active');
-        }
-    });
-
-
-
-    // BULLET CLICK =========================================================
-    $('.portfolio .nav-bar').on('click', '.bullet', function(){
-        let bullet = $(this).attr('id');
-
-        for (let i=1; i<5; i++)
-            $('#bullet'+i).removeClass('bullet-active');
-
-        if (bullet == 'bullet1'){
-            document.getElementById("portfolio-chapter1").scrollIntoView();
-            $('#bullet1').addClass('bullet-active');
-        }
-        if (bullet == 'bullet2'){
-            document.getElementById("portfolio-chapter2").scrollIntoView();
-            $('#bullet2').addClass('bullet-active');
-        }
-        if (bullet == 'bullet3'){
-            document.getElementById("portfolio-chapter3").scrollIntoView();
-            $('#bullet3').addClass('bullet-active');
-        }
-        if (bullet == 'bullet4'){
-            document.getElementById("portfolio-chapter4").scrollIntoView();
-            $('#bullet4').addClass('bullet-active');
-        }
-
-    });
 });
-
 
 // RETURN true IF AN ELEMENT IS IN VIEWPORT ================================
 $.fn.inView = function(inViewType){
@@ -89,3 +74,4 @@ $.fn.inView = function(inViewType){
         return ((bounds.top >= viewport.top) && (bounds.bottom <= viewport.bottom));        
     }
 };
+

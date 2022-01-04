@@ -31,9 +31,9 @@ video{
     border:1px solid #2867ae;
     box-shadow: 0px 5px 10px #999;
     background-color: #F5F5F5;
-    background-image: url('/img/2.jpg');
+    background-image: url('/img/home-aboutus.jpg');
     background-position: center;
-    background-size: cover;
+    background-size:cover;
 }
 
 .home-about-box1 h3{
@@ -83,6 +83,7 @@ video{
 
 .card{
     height:500px;
+    background: #F5F5F5;
 }
 
 .card img{

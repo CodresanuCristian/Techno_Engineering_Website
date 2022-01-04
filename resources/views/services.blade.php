@@ -5,7 +5,7 @@
         <div class="row justify-content-center align-items-center my-5">
             <div class="col-lg-6 mb-5">
                 <div class="service-pic-box d-flex justify-content-center">
-                    <img src="/img/1.jpg">
+                    <img src="/img/service1.jpg">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -24,7 +24,7 @@
         <div class="row justify-content-center align-items-center my-5">
             <div class="col-lg-6 mb-5">
                 <div class="service-pic-box d-flex justify-content-center">
-                    <img src="/img/1.jpg">
+                    <img src="/img/service2.jpg">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -41,7 +41,7 @@
         <div class="row justify-content-center align-items-center my-5">
             <div class="col-lg-6 mb-5">
                 <div class="service-pic-box d-flex justify-content-center">
-                    <img src="/img/1.jpg">
+                    <img src="/img/service3.jpg">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -71,7 +71,7 @@
         <div class="row justify-content-center align-items-center my-5">
             <div class="col-lg-6 mb-5">
                 <div class="service-pic-box d-flex justify-content-center">
-                    <img src="/img/1.jpg">
+                    <img src="/img/service4.jpg">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -122,7 +122,7 @@
         <div class="row justify-content-center align-items-center my-5">
             <div class="col-lg-6 mb-5">
                 <div class="service-pic-box d-flex justify-content-center">
-                    <img src="/img/1.jpg">
+                    <img src="/img/service5.jpg">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -157,7 +157,7 @@
         <div class="row justify-content-center align-items-center my-5">
             <div class="col-lg-6 mb-5">
                 <div class="service-pic-box d-flex justify-content-center">
-                    <img src="/img/1.jpg">
+                    <img src="/img/service6.jpg">
                 </div>
             </div>
             <div class="col-lg-6">

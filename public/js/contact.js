@@ -1,4 +1,12 @@
 $(document).ready(function(){
+    // LOADING MAP
+    setTimeout(function() {
+        $('.spinner-border').fadeOut(function(){
+            $('.map').fadeIn();
+        });
+    }, 1000);
+
+
     // CHANGE COUNTRY
     $('.contact .left-side').on('click','li a', function(){
         ChangeOffice($(this).attr('id'));
@@ -79,12 +87,19 @@ function SendAjaxRequest()
         data:{name: $('#contact-fullname').val(), 
               email: $('#contact-email').val(), 
               subject: $('#contact-subject').val(), 
-              message: $('#contact-message').val()},
+              message: $('#contact-message').val(),
+              country: $('.contact-form-active').attr('id')
+            },
         success: function(data){
             $('#contact-fullname').val('');
             $('#contact-email').val('');
             $('#contact-subject').val('');
             $('#contact-message').val('');
+            alert(data.country);
+            alert(data.name);
+            alert(data.email);
+            alert(data.subject);
+            alert(data.message);
         }
     });
 }
@@ -105,6 +120,10 @@ function ClearForm()
 
 function ChangeOffice(nav_option)
 {
+    $('.map').fadeOut(function(){
+        $('.spinner-border').fadeIn();
+    });
+
     $('.contact li a').removeClass('contact-form-active');
     // Romania
     if((nav_option == 'nav-ro-left') || (nav_option == 'nav-ro-mid')){
@@ -132,10 +151,16 @@ function ChangeOffice(nav_option)
         $('#nav-ro-left').addClass('contact-form-active');
         $('#nav-ro-mid').addClass('contact-form-active');
         $('.contact .middle-side .green-span').fadeOut(function (){
-            $('.contact .middle-side .green-span').html('ROMAINA');
+            $('.contact .middle-side .green-span').html('ROMANIA');
         }).fadeIn();
         // right-side
         $('iframe').attr('src', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.577830396339!2d26.09785641552291!3d44.42130807910252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff11c9e0a54f%3A0xb7dbe59d22944707!2sStrada%20Muzelor%2022%2C%20Bucure%C8%99ti!5e0!3m2!1sen!2sro!4v1628784162876!5m2!1sen!2sro');
+        setTimeout(function() {
+            $('.spinner-border').fadeOut(function(){
+                $('.map').fadeIn();
+            });
+        }, 1000);
+
     }
     
     // Bulgaria
@@ -168,6 +193,11 @@ function ChangeOffice(nav_option)
         }).fadeIn();
         // right-side
         $('iframe').attr('src', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11726.728516739038!2d23.368015!3d42.710451!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x59158e1dcbfe60e6!2sTechno%20Engineering%20%26%20Associates!5e0!3m2!1sen!2sro!4v1628775100250!5m2!1sen!2sro');
+        setTimeout(function() {
+            $('.spinner-border').fadeOut(function(){
+                $('.map').fadeIn();
+            });
+        }, 1000);
     }
     
     // Qatar
@@ -201,5 +231,10 @@ function ChangeOffice(nav_option)
         }).fadeIn();
         // right-side
         $('iframe').attr('src', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.011727355069!2d51.50629881544987!3d25.27019093493552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45dab16ad98483%3A0xc9e26a368efac223!2sTechno%20Engineering%20%26%20Associates%20Qatar!5e0!3m2!1sen!2sro!4v1628784379415!5m2!1sen!2sro');
+        setTimeout(function() {
+            $('.spinner-border').fadeOut(function(){
+                $('.map').fadeIn();
+            });
+        }, 1000);
     }
 }

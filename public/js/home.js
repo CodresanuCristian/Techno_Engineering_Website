@@ -1,7 +1,7 @@
 $(document).ready(function(){
     // OUR SERVICES - CAROUSEL =================================================================
     $('#recipeCarousel').carousel({
-        interval: 5000
+        interval: 6000
     });
     $('.carousel .carousel-item').each(function(){
         var minPerSlide = 3;
@@ -36,21 +36,21 @@ $(document).ready(function(){
 
         let img_path = '';
         let text_path = '';
-        if (nav_link_id == 'home-portfolio-op1') {img_path = '1'; text_path = 'National roads';}
+        if (nav_link_id == 'home-portfolio-op1') {img_path = '/national/nat'; text_path = 'National roads';}
         if (nav_link_id == 'home-portfolio-op2') {img_path = '2'; text_path = 'Railways and metro';}
         if (nav_link_id == 'home-portfolio-op3') {img_path = '3'; text_path = 'WWTP';}
         if (nav_link_id == 'home-portfolio-op4') {img_path = '4'; text_path = 'Miscellaneous';}
 
         $('.album').fadeOut('slow', function(){
             for(let i=1; i<=6; i++){
-                $('#album-box'+i+' img').attr('src','/img/'+img_path+'.jpg');
+                $('#album-box'+i+' img').attr('src','/img/'+img_path+i+'.jpg');
                 $('#album-box-text'+i).html(text_path);
             }
         }).fadeIn('slow');
     });
     // DEFAULT NATIONAL ROADS AND MOTORWAY
     for(let i=1; i<=6; i++){
-        $('#album-box'+i+' img').attr('src','/img/'+1+'.jpg');
+        $('#album-box'+i+' img').attr('src','/img/national/nat'+i+'.jpg');
         $('#album-box-text'+i).html('National roads');
     }
     // OUR PORTFOLIO - ALBUM HOVER 
@@ -102,6 +102,7 @@ $(document).ready(function(){
         $('#about').addClass('link-active');
         $('.mob-nav-options li a').removeClass('mob-link-active');
         $('#mob-about').addClass('mob-link-active');
+        $('html').animate({scrollTop:0});
         $('.content-page').load('about');
     });
     // OUR SERVICES BUTTON ============================================
@@ -110,6 +111,7 @@ $(document).ready(function(){
         $('#services').addClass('link-active');
         $('.mob-nav-options li a').removeClass('mob-link-active');
         $('#mob-services').addClass('mob-link-active');
+        $('html').animate({scrollTop:0});
         $('.content-page').load('services');
     });
     // PORTFOLIO BUTTON ============================================
@@ -118,6 +120,7 @@ $(document).ready(function(){
         $('#portfolio').addClass('link-active');
         $('.mob-nav-options li a').removeClass('mob-link-active');
         $('#mob-portfolio').addClass('mob-link-active');
+        $('html').animate({scrollTop:0});
         $('.content-page').load('portfolio');
     });
 });

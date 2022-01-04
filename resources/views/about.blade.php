@@ -17,44 +17,44 @@
         <!-- Box 1 -->
         <div class='row' id='rect1' style='margin-top:250px;'>
             <div class='col-md-6 d-flex justify-content-center align-items-center text-center' id='box1'>
-                <h2>Why choose TE&A ?</h2>
+                <h2>About TE&A </h2>
             </div>
-            <div class='col-md-6 box-text'>
-                <p>With the support of TE&A, you will have the opportunity to benefit daily from our specialized assistance in your work, the personal and professional development of your project teams and added construction business community involvement.</p>
+            <div class='col-md-6 box-text' id='box-text1'>
+                <p>Techno Engineering & Associates (“TE&A”) is a 130-person strong International Consulting firm, operating in the Balkans, Eastern Europe, Northern Africa and the Middle East, specializing in providing expert contract and construction law advice relating to any aspect in connection with construction contracts, including the preparation, substantiation and defence of complex Construction Claims through Dispute Resolution, international arbitration and/or national Courts.<br><br>
+                It is company policy to provide equal employment opportunity to all employees and applicants for employment, mindless of race, colour, nationality, ancestry, citizenship status, religion, creed, physical or mental disability, medical condition, marital status, veteran status, sex, sexual orientation, gender identity or expression, age, or any other basis protected by law, ordinance, or regulation.
+                </p>
             </div>
         </div>
         <!-- Box 2 -->
         <div class='row' id='rect2'>
-            <div class='col-md-6 box-text'>
-                <p>We encourage fresh ideas and a collaborative approach to delivering an unparalleled service which will entail pragmatic solutions for our clients.<br><br><br>
-                Our professionals work together and in conjunction with our clients’ personnel, to strategize innovative approaches to solutions across the spectrum of construction disciplines.<br><br>
-                We invest time and resources into the development of each of our professionals. Through extensive in-house training, external seminars and continued professional development, our employees are encouraged to develop new skills and to extend intellectual boundaries.
-                </p>
+            <div class='col-md-6 box-text' id='box-text2'>
+                <p>With the support of TE&A, you will have the opportunity to benefit daily from our specialized assistance in your work, the personal and professional development of your project teams and added construction business community involvement.</p>
             </div>
             <div class='col-md-6 d-flex justify-content-center align-items-center text-center' id='box2'>
-                <h2>Culture</h2>
+                <h2>Why choose TE&A ?</h2>
             </div>
         </div>
         <!-- Box 3 -->
         <div class='row' id='rect3'>
             <div class='col-md-6 d-flex justify-content-center align-items-center text-center' id='box3'>
-                <h2>Diversity</h2>
+                <h2>Culture</h2>
             </div>
-            <div class='col-md-6 box-text'>
-                <p>TE&A empowers individuals to demonstrate unique talents and expertise in a supportive and dynamic work environment. We provide equal employment opportunities to all employees and applicants.<br><br>
-                Our approach to inclusion embraces all forms of diversity beyond the traditional consideration of gender, race and ethnicity to include diverse generations, working and communication styles, professional backgrounds, global experience and related differences. By celebrating our differences, we have become better innovators, problem solvers and leaders.
+            <div class='col-md-6 box-text' id='box-text3'>
+                <p>We encourage fresh ideas and a collaborative approach to delivering an unparalleled service which will entail pragmatic solutions for our clients.<br><br><br>
+                Our professionals work together and in conjunction with our clients’ personnel, to strategize innovative approaches to solutions across the spectrum of construction disciplines.<br><br>
+                We invest time and resources into the development of each of our professionals. Through extensive in-house training, external seminars and continued professional development, our employees are encouraged to develop new skills and to extend intellectual boundaries.
                 </p>
             </div>
         </div>
         <!-- Box 4 -->
         <div class='row mb-5 pb-5' id='rect4'>
-            <div class='col-md-6 box-text'>
-                <p>Techno Engineering & Associates (“TE&A”) is a 130-person strong International Consulting firm, operating in the Balkans, Eastern Europe, Northern Africa and the Middle East, specializing in providing expert contract and construction law advice relating to any aspect in connection with construction contracts, including the preparation, substantiation and defence of complex Construction Claims through Dispute Resolution, international arbitration and/or national Courts.<br><br>
-                It is company policy to provide equal employment opportunity to all employees and applicants for employment, mindless of race, colour, nationality, ancestry, citizenship status, religion, creed, physical or mental disability, medical condition, marital status, veteran status, sex, sexual orientation, gender identity or expression, age, or any other basis protected by law, ordinance, or regulation.
+            <div class='col-md-6 box-text' id='box-text4'>
+                <p>TE&A empowers individuals to demonstrate unique talents and expertise in a supportive and dynamic work environment. We provide equal employment opportunities to all employees and applicants.<br><br>
+                Our approach to inclusion embraces all forms of diversity beyond the traditional consideration of gender, race and ethnicity to include diverse generations, working and communication styles, professional backgrounds, global experience and related differences. By celebrating our differences, we have become better innovators, problem solvers and leaders.
                 </p>
             </div>
             <div class='col-md-6 d-flex justify-content-center align-items-center text-center' id='box4'>
-                <h2>About TE&A </h2>
+                <h2>Diversity</h2>
             </div>
         </div>
     </div>
@@ -64,11 +64,11 @@
     <div class='how-we-started'>
         <div class='container' style='margin-top:250px;'>
             <h1 class='mt-5 pt-5 pb-3 text-center'>How we started</h1>
-            <div class='d-flex'>
+            <div class='desktop-how-we-started'>
                 <div class='container left-side'>
                     <!-- Box 1 -->
                     <div class='started-1'>
-                        <div class='round-img' style='right:-37px;'><img src='/icons/email.ico'></div>
+                        <div class='round-img' style='right:-37px;'><img src='/icons/startup.png'></div>
                         <div class='year'><h6>2004<h6></div>
                         <div class='title mt-3 mb-4'><h3>ESTABLISHMENT OF TE&A</h3></div>
                         <div class='text'>
@@ -79,7 +79,7 @@
                     </div>
                     <!-- Box 2 -->
                     <div class='started-2'>
-                        <div class='round-img' style='right:-37px;'><img src='/icons/email.ico'></div>
+                        <div class='round-img' style='right:-37px;'><img src='/icons/success.png'></div>
                         <div class='year'><h6>2013<h6></div>
                         <div class='title mt-3 mb-4'><h3>INTERNATIONAL RECOGNITION</h3></div>
                         <div class='text'>
@@ -90,7 +90,7 @@
                 <div class='container right-side'>
                     <!-- Box 1 -->
                     <div class='started-1'>
-                        <div class='round-img' style='left:-37px;'><img src='/icons/email.ico'></div>
+                        <div class='round-img' style='left:-37px;'><img src='/icons/goal.png'></div>
                         <div class='year'><h6>2011<h6></div>
                         <div class='title mt-3 mb-4'><h3>INTERNATIONAL GROWTH</h3></div>
                         <div class='text'>
@@ -101,7 +101,7 @@
                     </div>
                     <!-- Box 2 -->
                     <div class='started-2'>
-                        <div class='round-img' style='left:-37px;'><img src='/icons/email.ico'></div>
+                        <div class='round-img' style='left:-37px;'><img src='/icons/leadership.png'></div>
                         <div class='year'><h6><h6></div>
                         <div class='title mt-3 mb-4'><h3>PRESENT</h3></div>
                         <div class='text'>
@@ -110,6 +110,51 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            {{-- MOBILE --}}
+            <div class="mobile-how-we-started">
+                <!-- Box 1 -->
+                <div class='started-1'>
+                    <div class='round-img' style='right:-37px;'><img src='/icons/email.ico'></div>
+                    <div class='year'><h6>2004<h6></div>
+                    <div class='title mt-3 mb-4'><h3>ESTABLISHMENT OF TE&A</h3></div>
+                    <div class='text'>
+                        <p>Techno Engineering & Associates was founded in July 2004 by two highly experienced and accomplished civil engineers, contract and claims experts, Eng. Eugenia Dunca and Eng. Giovanni Di Folco. They had observed that many contractors with good merits in defence of the poor status of their projects, were suffering losses with little or no means of recovery available to them. 
+                        This prompted them to consider setting up the firm, which had been their vision for some time. After researching the Romanian and Eastern European construction industry, they assessed that with relevance to the Romanian market, there was a dearth of specialized consulting services to support contracting parties’ interests. The first clientele were acquaintances of the owners and the early successes of TE&A soon earned the firm a prestigious reputation which soon developed into the niche market whereby the firm was in a position to expand to provide the visionary one-stop-shop approach, by having developed its own legal, contracts, planning and quantum departments, which has proven to be the keystone of its success.
+                        </p>
+                    </div>
+                </div>
+                <!-- Box 2 -->
+                <div class='started-1'>
+                    <div class='round-img' style='left:-37px;'><img src='/icons/email.ico'></div>
+                    <div class='year'><h6>2011<h6></div>
+                    <div class='title mt-3 mb-4'><h3>INTERNATIONAL GROWTH</h3></div>
+                    <div class='text'>
+                        <p>In October 2011 TE&A, opened its first branch office outside Romania in Sofia, Bulgaria, which was followed soon after by the opening of its offices in Doha, Qatar in July 2012. This was a strategic move in order to expand into the Middle East at an opportune time when growth in Qatar was nearing its peak and at the same time Dubai was quickly emerging from its former economic difficulties.
+                        As part of its continuing expansion plans, TE&A aims to open offices in other strategic venues in the near future.
+                        </p>
+                    </div>
+                </div>
+                <!-- Box 3 -->
+                <div class='started-2'>
+                    <div class='round-img' style='right:-37px;'><img src='/icons/email.ico'></div>
+                    <div class='year'><h6>2013<h6></div>
+                    <div class='title mt-3 mb-4'><h3>INTERNATIONAL RECOGNITION</h3></div>
+                    <div class='text'>
+                        <p>After winning numerous awards in Romania over the years, in 2013 TE&A were awarded the Business Initiative Directions (BID) World Quality Commitment Award in Paris, which prestigiously marked and formalised the degree of international recognition that TE&A has deservedly achieved in quality of its services.</p>
+                    </div>
+                </div>
+                <!-- Box 4 -->
+                <div class='started-2'>
+                    <div class='round-img' style='left:-37px;'><img src='/icons/email.ico'></div>
+                    <div class='year'><h6><h6></div>
+                    <div class='title mt-3 mb-4'><h3>PRESENT</h3></div>
+                    <div class='text'>
+                        <p>The quality services provided by TE&A have been immediately recognized by its clients and its services are in continuous demand. As a consequence, the company’s expansion plans are progressing with little or no paralleled competition.<br><br>
+                        At present TE&A employs more than 130 full-time personnel in three different countries comprising highly qualified professionals from a mix of nationalities, specifically trained in the various disciplines of the construction industry, construction law and contracts management and administration, who are able to resolve any form of difficulties, disputes and technical matters that may arise within the international construction arena.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -131,132 +176,132 @@
         </nav>
         <div class='container-fluid d-flex justify-content-center flex-wrap employee-wrap'>
             <!-- Employee 1 -->
-            <div class='meet-box' id='employee1' data-toggle="modal" data-target="#modal-employee">
-                <img src='/img/1.jpg'>
+            <div class='meet-box' id='about-employee1' >
+                <img src='/img/GiovanniDiFolco.jpg' id='img-emp1' data-toggle="modal" data-target="#modal-employee">
                 <div class='details text-center'>
                     <h5>GIOVANNI DI FOLCO</h5>
                     <h6>President</h6>
                     <div class='social-media'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
+                        <a><img src='/icons/twitter.png'></a>
+                        <a id='linkedin' target='_blank' href='https://www.linkedin.com/in/giovanni-di-folco-fdbf-fpd-faa-cmdrbf-maric-mfidic-b2901627/'><img src='/icons/linkedin.png'></a>
+                        <a><img src='/icons/google-plus.png'></a>
                     </div>
                 </div>
             </div>
             <!-- Employee 2 -->
-            <div class='meet-box' id='employee2' data-toggle="modal" data-target="#modal-employee">
-                <img src='/img/2.jpg'>
+            <div class='meet-box' id='about-employee2'>
+                <img src='/img/EugeniaDunca.jpg' id='img-emp2' data-toggle="modal" data-target="#modal-employee">
                 <div class='details text-center'>
                     <h5>EUGENIA DUNCA</h5>
                     <h6>President</h6>
                     <div class='social-media'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
+                        <a><img src='/icons/twitter.png'></a>
+                        <a id='linkedin' target='_blank' href='https://www.linkedin.com/in/eugenia-dunca-483929100/'><img src='/icons/linkedin.png'></a>
+                        <a><img src='/icons/google-plus.png'></a>
                     </div>
                 </div>
             </div>
             <!-- Employee 3 -->
-            <div class='meet-box' id='employee3' data-toggle="modal" data-target="#modal-employee">
-                <img src='/img/1.jpg'>
+            <div class='meet-box' id='about-employee3'>
+                <img src='/img/1.jpg' id='img-emp3' data-toggle="modal" data-target="#modal-employee">
                 <div class='details text-center'>
                     <h5>GIOVANNI DIFALCO</h5>
                     <h6>President</h6>
                     <div class='social-media'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
+                        <a><img src='/icons/twitter.png'></a>
+                        <a id='linkedin' target='_blank' href=''><img src='/icons/linkedin.png'></a>
+                        <a><img src='/icons/google-plus.png'></a>
                     </div>
                 </div>
             </div>
             <!-- Employee 4 -->
-            <div class='meet-box' id='employee4' data-toggle="modal" data-target="#modal-employee">
-                <img src='/img/2.jpg'>
+            <div class='meet-box' id='about-employee4'>
+                <img src='/img/2.jpg' id='img-emp4' data-toggle="modal" data-target="#modal-employee">
                 <div class='details text-center'>
                     <h5>EUGENIA DUNCA</h5>
                     <h6>President</h6>
                     <div class='social-media'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
+                        <a><img src='/icons/twitter.png'></a>
+                        <a id='linkedin' target='_blank' href=''><img src='/icons/linkedin.png'></a>
+                        <a><img src='/icons/google-plus.png'></a>
                     </div>
                 </div>
             </div>
             <!-- Employee 5 -->
-            <div class='meet-box' id='employee5' data-toggle="modal" data-target="#modal-employee">
-                <img src='/img/1.jpg'>
+            <div class='meet-box' id='about-employee5'>
+                <img src='/img/1.jpg' id='img-emp5' data-toggle="modal" data-target="#modal-employee">
                 <div class='details text-center'>
                     <h5>GIOVANNI DIFALCO</h5>
                     <h6>President</h6>
                     <div class='social-media'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
+                        <a><img src='/icons/twitter.png'></a>
+                        <a id='linkedin' target='_blank' href=''><img src='/icons/linkedin.png'></a>
+                        <a><img src='/icons/google-plus.png'></a>
                     </div>
                 </div>
             </div>
             <!-- Employee 6 -->
-            <div class='meet-box' id='employee6' data-toggle="modal" data-target="#modal-employee">
-                <img src='/img/1.jpg'>
+            <div class='meet-box' id='about-employee6'>
+                <img src='/img/1.jpg' id='img-emp6' data-toggle="modal" data-target="#modal-employee">
                 <div class='details text-center'>
                     <h5>GIOVANNI DIFALCO</h5>
                     <h6>President</h6>
                     <div class='social-media'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
+                        <a><img src='/icons/twitter.png'></a>
+                        <a id='linkedin' target='_blank' href=''><img src='/icons/linkedin.png'></a>
+                        <a><img src='/icons/google-plus.png'></a>
                     </div>
                 </div>
             </div>
             <!-- Employee 7 -->
-            <div class='meet-box' id='employee7' data-toggle="modal" data-target="#modal-employee">
-                <img src='/img/1.jpg'>
+            <div class='meet-box' id='about-employee7'>
+                <img src='/img/1.jpg' id='img-emp7' data-toggle="modal" data-target="#modal-employee">
                 <div class='details text-center'>
                     <h5>GIOVANNI DIFALCO</h5>
                     <h6>President</h6>
                     <div class='social-media'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
+                        <a><img src='/icons/twitter.png'></a>
+                        <a id='linkedin' target='_blank' href=''><img src='/icons/linkedin.png'></a>
+                        <a><img src='/icons/google-plus.png'></a>
                     </div>
                 </div>
             </div>
             <!-- Employee 8 -->
-            <div class='meet-box' id='employee8' data-toggle="modal" data-target="#modal-employee">
-                <img src='/img/1.jpg'>
+            <div class='meet-box' id='about-employee8'>
+                <img src='/img/1.jpg' id='img-emp8' data-toggle="modal" data-target="#modal-employee">
                 <div class='details text-center'>
                     <h5>GIOVANNI DIFALCO</h5>
                     <h6>President</h6>
                     <div class='social-media'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
+                        <a><img src='/icons/twitter.png'></a>
+                        <a id='linkedin' target='_blank' href=''><img src='/icons/linkedin.png'></a>
+                        <a><img src='/icons/google-plus.png'></a>
                     </div>
                 </div>
             </div>
             <!-- Employee 9 -->
-            <div class='meet-box' id='employee9' data-toggle="modal" data-target="#modal-employee">
-                <img src='/img/1.jpg'>
+            <div class='meet-box' id='about-employee9'>
+                <img src='/img/1.jpg' id='img-emp9' data-toggle="modal" data-target="#modal-employee">
                 <div class='details text-center'>
                     <h5>GIOVANNI DIFALCO</h5>
                     <h6>President</h6>
                     <div class='social-media'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
+                        <a><img src='/icons/twitter.png'></a>
+                        <a id='linkedin' target='_blank' href=''><img src='/icons/linkedin.png'></a>
+                        <a><img src='/icons/google-plus.png'></a>
                     </div>
                 </div>
             </div>
             <!-- Employee 10 -->
-            <div class='meet-box' id='employee10' data-toggle="modal" data-target="#modal-employee">
-                <img src='/img/1.jpg'>
+            <div class='meet-box' id='about-employee10'>
+                <img src='/img/1.jpg' id='img-emp10' data-toggle="modal" data-target="#modal-employee">
                 <div class='details text-center'>
                     <h5>GIOVANNI DIFALCO</h5>
                     <h6>President</h6>
                     <div class='social-media'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
-                        <img src='/icons/email.ico'>
+                        <a><img src='/icons/twitter.png'></a>
+                        <a id='linkedin' target='_blank' href=''><img src='/icons/linkedin.png'></a>
+                        <a><img src='/icons/google-plus.png'></a>
                     </div>
                 </div>
             </div>
@@ -280,14 +325,19 @@
                     </p>
                 </div>
                 <!-- Modal footer -->
-                <div class="modal-footer">
+                <div class="modal-footer justify-content-between">
+                    <div class='social-media'>
+                        <a target='_blank' href=''><img src='/icons/twitter.png'></a>
+                        <a id='linkedin-modal' target='_blank' href=''><img src='/icons/linkedin.png'></a>
+                        <a target='_blank' href=''><img src='/icons/google-plus.png'></a>
+                    </div>
                     <button type="button" class="btn btn-blue" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
 
-
+    
     <!-- OUR VALUES ================================================ -->
     <div class='our-values'>
         <div class='container'>
@@ -310,7 +360,7 @@
                     </div>
                 </div>
                 <div class='col-lg-5 p-5'>
-                    <img src='/img/2.jpg'>
+                    <img src='/img/value-trust.jpg'>
                 </div>
             </div>
         </div>

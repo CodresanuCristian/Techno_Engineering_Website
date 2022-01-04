@@ -30,26 +30,28 @@ $(document).ready(function(){
     $('.desktop-nav').on('click','ul li a', function(){
         let op_selected = $(this).attr('id');
 
-        $('ul li a').removeClass('link-active');
-        $('#'+op_selected).addClass('link-active');
-        $('.mob-nav-options li a').removeClass('mob-link-active');
-        if (op_selected == 'home')         $('#mob-home').addClass('mob-link-active');
-        if (op_selected == 'about')        $('#mob-about').addClass('mob-link-active');
-        if (op_selected == 'services')     $('#mob-services').addClass('mob-link-active');
-        if (op_selected == 'portfolio')    $('#mob-portfolio').addClass('mob-link-active');
-        if (op_selected == 'publications') $('#mob-publications').addClass('mob-link-active');
-        if (op_selected == 'contact')      $('#mob-contact').addClass('mob-link-active');
-        if (op_selected == 'careers')      $('#mob-careers').addClass('mob-link-active');
+        if (op_selected != 'publications'){
+            $('ul li a').removeClass('link-active');
+            $('#'+op_selected).addClass('link-active');
+            $('.mob-nav-options li a').removeClass('mob-link-active');
+            if (op_selected == 'home')         $('#mob-home').addClass('mob-link-active');
+            if (op_selected == 'about')        $('#mob-about').addClass('mob-link-active');
+            if (op_selected == 'services')     $('#mob-services').addClass('mob-link-active');
+            if (op_selected == 'portfolio')    $('#mob-portfolio').addClass('mob-link-active');
+            // if (op_selected == 'publications') $('#mob-publications').addClass('mob-link-active');
+            if (op_selected == 'contact')      $('#mob-contact').addClass('mob-link-active');
+            if (op_selected == 'careers')      $('#mob-careers').addClass('mob-link-active');
 
-        $('html').animate({scrollTop:0});
-        $('.content-page').fadeOut('fast', function(){
-            $('.content-page').css({'opacity':'0'});
-            $('.content-page').load(ChangePage(op_selected));
-        }).fadeIn('fast', function(){
-            // $('.submit-fail').css({'display':'none'});
-            // $('.submit-success').css({'display':'none'});
-            $('.content-page').animate({'opacity':'1'});
-        });
+            $('html').animate({scrollTop:0});
+            $('.content-page').fadeOut('fast', function(){
+                $('.content-page').css({'opacity':'0'});
+                $('.content-page').load(ChangePage(op_selected));
+            }).fadeIn('fast', function(){
+                // $('.submit-fail').css({'display':'none'});
+                // $('.submit-success').css({'display':'none'});
+                $('.content-page').animate({'opacity':'1'});
+            });
+        }
     });
 
     // Animate desktop navbar when scroll
@@ -91,27 +93,29 @@ $(document).ready(function(){
     $('.mobile-navbar').on('click','.mob-nav-options li a', function(){
         let op_selected = $(this).attr('id');
 
-        $('.mob-nav-options li a').removeClass('mob-link-active');
-        $('#'+op_selected).addClass('mob-link-active');
-        $('.desktop-nav ul li a').removeClass('link-active');
-        if (op_selected == 'mob-home')         $('#home').addClass('link-active');
-        if (op_selected == 'mob-about')        $('#about').addClass('link-active');
-        if (op_selected == 'mob-services')     $('#services').addClass('link-active');
-        if (op_selected == 'mob-portfolio')    $('#portfolio').addClass('link-active');
-        if (op_selected == 'mob-publications') $('#publications').addClass('link-active');
-        if (op_selected == 'mob-contact')      $('#contact').addClass('link-active');
-        if (op_selected == 'mob-careers')      $('#careers').addClass('link-active');
+        if (op_selected != 'mob-publications'){
+            $('.mob-nav-options li a').removeClass('mob-link-active');
+            $('#'+op_selected).addClass('mob-link-active');
+            $('.desktop-nav ul li a').removeClass('link-active');
+            if (op_selected == 'mob-home')         $('#home').addClass('link-active');
+            if (op_selected == 'mob-about')        $('#about').addClass('link-active');
+            if (op_selected == 'mob-services')     $('#services').addClass('link-active');
+            if (op_selected == 'mob-portfolio')    $('#portfolio').addClass('link-active');
+            // if (op_selected == 'mob-publications') $('#publications').addClass('link-active');
+            if (op_selected == 'mob-contact')      $('#contact').addClass('link-active');
+            if (op_selected == 'mob-careers')      $('#careers').addClass('link-active');
 
 
-        $('html').animate({scrollTop:0});
-        $('.content-page').fadeOut('fast', function(){
-            $('.content-page').css({'opacity':'0'});
-            $('.content-page').load(ChangePage(op_selected));
-        }).fadeIn('fast', function(){
-            // $('.submit-fail').css({'display':'none'});
-            // $('.submit-success').css({'display':'none'});
-            $('.content-page').animate({'opacity':'1'});
-        });
+            $('html').animate({scrollTop:0});
+            $('.content-page').fadeOut('fast', function(){
+                $('.content-page').css({'opacity':'0'});
+                $('.content-page').load(ChangePage(op_selected));
+            }).fadeIn('fast', function(){
+                // $('.submit-fail').css({'display':'none'});
+                // $('.submit-success').css({'display':'none'});
+                $('.content-page').animate({'opacity':'1'});
+            });
+        }
         MobileNavbarToggle();
     });
 
@@ -125,6 +129,28 @@ $(document).ready(function(){
         if (lang_selected == 'mobile-en') $('#en').addClass('lang-active');
         if (lang_selected == 'mobile-ro') $('#ro').addClass('lang-active');
         if (lang_selected == 'mobile-es') $('#es').addClass('lang-active');
+    });
+
+
+
+
+    // SHORT LINKS ===============================================================================
+    $('footer').on('click','#careers-short-btn',function(){
+        $('ul li a').removeClass('link-active');
+        $('#careers').addClass('link-active');
+        $('.mob-nav-options li a').removeClass('mob-link-active');
+        $('#mob-careers').addClass('mob-link-active');
+        $('html').animate({scrollTop:0});
+        $('.content-page').load('careers');
+    });
+
+    $('footer').on('click','#contact-short-btn',function(){
+        $('ul li a').removeClass('link-active');
+        $('#contact').addClass('link-active');
+        $('.mob-nav-options li a').removeClass('mob-link-active');
+        $('#mob-contact').addClass('mob-link-active');
+        $('html').animate({scrollTop:0});
+        $('.content-page').load('contact');
     });
 });
 

@@ -79,10 +79,11 @@
     padding: 0;
 }
 
-.about #rect1 .box-text{background: url('/img/1.jpg');}
-.about #rect2 .box-text{background: url('/img/2.jpg');}
-.about #rect3 .box-text{background: url('/img/3.jpg');}
-.about #rect4 .box-text{background: url('/img/4.jpg');}
+.about #rect1 .box-text{background: url('/img/about-tea.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;}
+.about #rect2 .box-text{background: url('/img/about-why-choose.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;}
+.about #rect3 .box-text{background: url('/img/about-culture.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;}
+.about #rect4 .box-text{background: url('/img/about-diversity.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;}
+
 
 .about .boxes .row p{
     width: 100%;
@@ -106,6 +107,14 @@
 .about .how-we-started .container h1{
     margin: 0px 20%;
     border-bottom: 3px solid #2867ae;
+}
+
+.about .desktop-how-we-started{
+    display: flex;
+}
+
+.about .mobile-how-we-started{
+    display:none;
 }
 
 .about .how-we-started .container .left-side{
@@ -202,7 +211,7 @@
 
 .about .meet .meet-box{
     width:320px;
-    height: 300px;
+    height: 350px;
     margin:30px 30px;
     position: relative;
     overflow: hidden;
@@ -215,7 +224,7 @@
     width: 300px;
     height: 270px;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
     box-shadow: 0px 5px 15px #999;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -228,7 +237,7 @@
     width: 250px;
     padding: 10px;
     position: absolute;
-    bottom:-60px;
+    bottom:-50px;
     left:35px;
     background: white;
     border-radius: 5px;
@@ -237,6 +246,7 @@
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     cursor:initial;
+    z-index:2;
 }
 
 .about .meet .meet-box .details h6{
@@ -252,12 +262,19 @@
 .about .meet .meet-box .social-media img{
     height: 35px;
     width: 35px;
-    margin:5px 10px 15px 10px;
+    margin:0px 3px;
     box-shadow: none;
     cursor: pointer;
 }
 
-#employee3, #employee4, #employee5, #employee6, #employee7, #employee8, #employee9, #employee10{
+.about .modal-footer .social-media img{
+    height: 35px;
+    width: 35px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+#about-employee3, #about-employee4, #about-employee5, #about-employee6, #about-employee7, #about-employee8, #about-employee9, #about-employee10{
     display:none;
 }
 
@@ -307,4 +324,49 @@
 
 .val-text p{
     margin:0;
+}
+
+
+
+
+
+
+
+/* MEDIA ONLY SCREEN ========================================= */
+@media only screen and (max-width: 1000px) {
+    .about .overview-text{
+        column-count: 2;
+    }
+}
+@media only screen and (max-width: 995px) {
+    .about .desktop-how-we-started{
+        display:none;
+    }
+    .about .how-we-started .container h1{
+        border:none;
+    }
+    .about .mobile-how-we-started{
+        display:inherit;
+        padding: 30px 5%;
+    }
+    .about .mobile-how-we-started .started-1, .about .mobile-how-we-started .started-2{
+        border-top:3px solid #2867ae;
+        padding: 15px 0px 50px 0px;
+    }
+    .about .mobile-how-we-started .title{
+        text-align:center;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #rect2, #rect4{
+        flex-direction: column-reverse;
+    }
+    #rect1 #box1, #rect1 .box-text p, #rect2 #box2, #rect2 .box-text p, #rect3 #box3, #rect3 .box-text p, #rect4 #box4, #rect4 .box-text p{
+        min-height:100vh;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .about .overview-text{
+        column-count: 1;
+    }
 }

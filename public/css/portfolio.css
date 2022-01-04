@@ -1,18 +1,43 @@
-/*  CONTENT ===================================================== */
-.portfolio .col-md-11{
-    margin: 0;
-    padding: 0;
+.portfolio .nav{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
 }
 
-.portfolio .title{
-    background-color: #2867ae;
-    color:whitesmoke;
-    font-weight: bold;
-    padding: 80px 30px;
-    text-align: center;
+.portfolio .portfolio-nav ul{
+    justify-content: space-around;
 }
 
-.portfolio .content .album-box{
+.portfolio .portfolio-nav ul li{
+    margin: 15px;
+}
+
+.portfolio .portfolio-nav ul li a{
+    padding: 15px 30px;
+    cursor: pointer;
+    border:1px solid transparent;
+    color: black;
+}
+
+.portfolio .portfolio-nav ul li a.portfolio-active{
+    border:1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #24B463;
+}
+
+.portfolio .album{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.portfolio .album-box{
     height: 300px;
     width: 300px;
     min-width: 300px;
@@ -26,13 +51,13 @@
     -o-border-radius:5px;
 }
 
-.portfolio .content .album-box img{
+.portfolio .album-box img{
     height: 300px;
     width: 300px;
     object-fit: cover;
 }
 
-.portfolio .content .album-box-text{
+.portfolio .album-text{
     height: 150px;
     width: 300px;
     display: flex;
@@ -42,65 +67,10 @@
     padding: 10px;
 }
 
-.portfolio .content .album-box-text h5{
+.portfolio .album-text h5{
     color:black;
 }
 
-
-/* NAV BAR ============================================================== */
-.portfolio .col-md-1{  
-    margin:0; 
-    padding: 0;
-    position: relative;
-    background: #2867ae;
-}
-
-.portfolio .nav-bar{
-    position: sticky;
-    top:40vh;
-    left:0;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction: column;
-}
-
-.portfolio .nav-bar .bullet{
-    width:20px;
-    height: 20px;
-    margin:10px 0px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    background-color: rgba(20,20,20,.5);
-    cursor: pointer;
-}
-
-.portfolio .nav-bar .bullet-active{
-    background-color: whitesmoke;
-}
-
-
-
-/*  MEDIA QUERY ======================================================= */
-@media only screen and (max-width: 767px) {
-    .portfolio {
-        display: flex;
-        flex-direction: column-reverse;
-        position: relative;
-    }
-    .portfolio .col-md-1{
-        position:sticky;
-        top:45px;
-        left: 0;
-    }
-    .portfolio .nav-bar{
-        flex-direction: row;
-    }
-    .portfolio .nav-bar .bullet{
-        margin-left: 15px;
-        margin-right: 15px;
-    }
+#railways, #wwtp, #miscel{
+    display:none;
 }

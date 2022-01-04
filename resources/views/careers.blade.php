@@ -8,7 +8,7 @@
             </div>
             <div class="col-md-6">
                 <div class="img-box d-flex justify-content-center align-items-center">
-                    <img src="/img/2.jpg">
+                    <img src="/img/career-joinus.jpg">
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@
             </div>
             <div class="col-md-6">
                 <div class="img-box d-flex justify-content-center align-items-center">
-                    <img src="/img/1.jpg">
+                    <img src="/img/career-why.jpg">
                 </div>
             </div>
         </div>
@@ -40,28 +40,28 @@
                 <!-- Option 1 -->
                 <div id="desktop-op1" class="col-md-3 bg-op1 px-5">
                     <div class="round-img my-3">
-                        <img src="/icons/newsletter-light.png">
+                        <img src="/icons/lawyer.png">
                     </div>
                     <h5>Senior Lawyer</h5>
                 </div>
                 <!-- Option 2 -->
                 <div id="desktop-op2" class="col-md-3 bg-op2 px-5">
                     <div class="round-img my-3">
-                        <img src="/icons/newsletter-light.png">
+                        <img src="/icons/planner.png">
                     </div>
                     <h5>Senior Planner</h5>
                 </div>
                 <!-- Option 3 -->
                 <div id="desktop-op3" class="col-md-3 bg-op3 px-5">
                     <div class="round-img my-3">
-                        <img src="/icons/newsletter-light.png">
+                        <img src="/icons/contract-manager.png">
                     </div>
                     <h5>Senior Contracts Manage</h5>
                 </div>
                 <!-- Option 4 -->
                 <div id="desktop-op4" class="col-md-3 bg-op4 px-5">
                     <div class="round-img my-3">
-                        <img src="/icons/newsletter-light.png">
+                        <img src="/icons/quantity-surveyor.png">
                     </div>
                     <h5>Senior Quantity Surveyor</h5>
                 </div>
@@ -337,42 +337,42 @@
         </div>
         <div class="section row">
             <div class="col-lg-6 d-flex justify-content-center flex-column">
-                <p id="msg">“Here at TE&A, we are avid believers that the best results are achieved through the diversity of ideas shared between individuals. Consensus decision–making between personnel with a variety of talents have led to great achievements. TE&A encourages the flow of ideas and assists each and every member of our team to improve and expand on their natural talents. It is that special authentic mix of diversity which offers an unparalleled solid base for sustained development.”</p>
-                <h4 id="author" class="my-4">Robert Cruceru – Senior Lawyer</h4>
+                <p id="msg">“Working at TE&A offers major challenges whilst at the same time provides a unique opportunity to develop skills and experience. It encourages us to further mature as professionals and to assist others to grow; we are given the chance to achieve a high level of professionalism in the various fields of the industry, which encourages dedication and promotes our best efforts in everything we do. This is a multinational and multi specialized environment requiring high demands which are extremely satisfying when our efforts prove successful outcomes.”</p>
+                <h4 id="author" class="my-4">Denitsa Harizanova – Claims Manager & Country Manager Bulgaria</h4>
             </div>
             <div class="col-lg-6 avatar d-flex">
                 <div class="round-box">
-                    <img id="avatar" src="/img/1.jpg">
+                    <img id="avatar" src="/img/Denitsa Harizanova.jpg">
                 </div>
             </div>
         </div>
         <div class="footer d-flex flex-wrap mt-5">
             <div class="employee-box employee-box-selected" id="employee-box1">
-                <img id="employee1" src="/img/1.jpg" data-toggle="tooltip" data-placement="bottom" title="Robert Cruceru">
+                <img id="employee1" src="/img/Denitsa Harizanova.jpg" data-toggle="tooltip" data-placement="bottom" title="Denitsa Harizanova">
             </div>
             <div class="employee-box" id="employee-box2">
-                <img id="employee2" src="/img/2.jpg" data-toggle="tooltip" data-placement="bottom" title="Lotfy Abdel Kader">
+                <img id="employee2" src="/img/Violeta Dinu.jpg" data-toggle="tooltip" data-placement="bottom" title="Violeta Dinu">
             </div>
             <div class="employee-box" id="employee-box3">
-                <img id="employee3" src="/img/3.jpg" data-toggle="tooltip" data-placement="bottom" title="Athanasios Stigas">
+                <img id="employee3" src="/img/no-user-image.png" data-toggle="tooltip" data-placement="bottom" title="Athanasios Stigas">
             </div>
             <div class="employee-box" id="employee-box4">
-                <img id="employee4" src="/img/1.jpg" data-toggle="tooltip" data-placement="bottom" title="Denitsa Harizanova">
+                <img id="employee4" src="/img/no-user-image.png" data-toggle="tooltip" data-placement="bottom" title="Robert Cruceru">
             </div>
             <div class="employee-box" id="employee-box5">
-                <img id="employee5" src="/img/2.jpg" data-toggle="tooltip" data-placement="bottom" title="Ugo Galli">
+                <img id="employee5" src="/img/no-user-image.png" data-toggle="tooltip" data-placement="bottom" title="Ugo Galli">
             </div>
             <div class="employee-box" id="employee-box6">
-                <img id="employee6" src="/img/3.jpg" data-toggle="tooltip" data-placement="bottom" title="Cerasela Angelescu">
+                <img id="employee6" src="/img/CeraselaAngelescu.png" data-toggle="tooltip" data-placement="bottom" title="Cerasela Angelescu">
             </div>
             <div class="employee-box" id="employee-box7">
-                <img id="employee7" src="/img/1.jpg" data-toggle="tooltip" data-placement="bottom" title="Lino Morini">
+                <img id="employee7" src="/img/no-user-image.png" data-toggle="tooltip" data-placement="bottom" title="Lino Morini">
             </div>
             <div class="employee-box" id="employee-box8">
-                <img id="employee8" src="/img/2.jpg" data-toggle="tooltip" data-placement="bottom" title="Violeta Dinu">
+                <img id="employee8" src="/img/no-user-image.png" data-toggle="tooltip" data-placement="bottom" title="Lotfy Abdel Kader">
             </div>
             <div class="employee-box" id="employee-box9">
-                <img id="employee9" src="/img/3.jpg" data-toggle="tooltip" data-placement="bottom" title="Ioana Otilia Isac">
+                <img id="employee9" src="/img/Ioana Otilia Isac.jpg" data-toggle="tooltip" data-placement="bottom" title="Ioana Otilia Isac">
             </div>            
         </div>
     </div>
