@@ -6,6 +6,7 @@
 /* OVERVIEW ========================================================== */
 .about .overview{
     padding: 0px 7%;
+    font-family: Sarabun-Medium, sans-serif;
 }
 
 .about .overview-text{
@@ -13,6 +14,7 @@
     column-gap: 50px;
     column-rule-style: solid;
     column-rule-color: #24B463;
+    font-family: Quicksand-Medium, sans-serif;
 }
 
 
@@ -85,6 +87,10 @@
 .about #rect4 .box-text{background: url('/img/about-diversity.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;}
 
 
+.about .boxes .row h2{
+    font-family: Sarabun-Bold, sans-serif;
+}
+
 .about .boxes .row p{
     width: 100%;
     height: 100%;
@@ -94,6 +100,7 @@
     justify-content:center;
     align-items: center;
     padding: 10%;
+    font-family: Quicksand-Medium, sans-serif;
 }
 
 
@@ -107,14 +114,21 @@
 .about .how-we-started .container h1{
     margin: 0px 20%;
     border-bottom: 3px solid #2867ae;
+    font-family: Sarabun-Bold, sans-serif;
+}
+
+.about .how-we-started .container h3, .about .how-we-started .container h6{
+    font-family: Quicksand-Bold, sans-serif;
 }
 
 .about .desktop-how-we-started{
     display: flex;
+    font-family: Quicksand-Medium, sans-serif;
 }
 
 .about .mobile-how-we-started{
     display:none;
+    font-family: Quicksand-Medium, sans-serif;
 }
 
 .about .how-we-started .container .left-side{
@@ -177,8 +191,13 @@
     margin-top:250px;
 }
 
+.about .meet h1{
+    font-family: Sarabun-Bold, sans-serif;
+}
+
 .about-meet-nav{
     width: 100vw;
+    font-family: Quicksand-Bold, sans-serif;
 }
 .about-meet-nav ul{
     justify-content: center;
@@ -211,7 +230,7 @@
 
 .about .meet .meet-box{
     width:320px;
-    height: 350px;
+    height: 360px;
     margin:30px 30px;
     position: relative;
     overflow: hidden;
@@ -250,8 +269,10 @@
 }
 
 .about .meet .meet-box .details h6{
-    height:50px;
+    height:70px;
     margin:0;
+    color:#222;
+    font-family: Quicksand-Medium, sans-serif;
 }
 
 .about .meet .meet-box .social-media{
@@ -265,6 +286,11 @@
     margin:0px 3px;
     box-shadow: none;
     cursor: pointer;
+}
+
+
+.about .modal-content p{
+    font-family: Quicksand-Medium, sans-serif;
 }
 
 .about .modal-footer .social-media img{
@@ -284,6 +310,11 @@
 /* OUR VALUES ================================================ */
 .our-values{
     margin-top: 250px;
+    font-family: Quicksand-Medium, sans-serif;
+}
+
+.our-values h1{
+    font-family: Sarabun-Bold, sans-serif;
 }
 
 .our-values .container .row {

@@ -193,7 +193,7 @@
             </div>
         </div>
 
-        <div class="mobile">
+        <div class="mobile"> 
             <!-- Mobile op1 -->
             <div class="row bg-op1">
                 <div class="col-lg-6 d-flex justify-content-center align-items-center flex-column my-3 mob-op" id="mob-op1">
@@ -363,7 +363,7 @@
                 <img id="employee5" src="/img/no-user-image.png" data-toggle="tooltip" data-placement="bottom" title="Ugo Galli">
             </div>
             <div class="employee-box" id="employee-box6">
-                <img id="employee6" src="/img/CeraselaAngelescu.png" data-toggle="tooltip" data-placement="bottom" title="Cerasela Angelescu">
+                <img id="employee6" src="/img/CeraselaAngelescu.jpg" data-toggle="tooltip" data-placement="bottom" title="Cerasela Angelescu">
             </div>
             <div class="employee-box" id="employee-box7">
                 <img id="employee7" src="/img/no-user-image.png" data-toggle="tooltip" data-placement="bottom" title="Lino Morini">

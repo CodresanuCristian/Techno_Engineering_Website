@@ -1,0 +1,41 @@
+/* --------------- */
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url('/font/Quicksand/Quicksand-Regular.ttf');
+}
+
+@font-face {
+    font-family: Quicksand-Medium;
+    src: url('/font/Quicksand/Quicksand-Medium.ttf');
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url('/font/Quicksand/Quicksand-Bold.ttf');
+}
+
+@font-face {
+    font-family: Sarabun-Medium;
+    src: url('/font/Sarabun/Sarabun-Medium.ttf');
+}
+
+/* ---------------- */
+@font-face {
+    font-family: Sarabun-Bold;
+    src: url('/font/Sarabun/Sarabun-Bold.ttf');
+}
+
+
+.legal-notice h1{
+    font-family:sans-serif;
+}
+
+.legal-notice{
+    font-family: Quicksand-Medium, sans-serif;
+    font-size: 18px;
+}
+
+.legal-notice{
+    color:whitesmoke;
+    background-image: linear-gradient(to bottom right, #2867ae, #24B463);
+}

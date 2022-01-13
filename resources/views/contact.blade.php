@@ -9,7 +9,7 @@
                     <li><a id="nav-qa-left">QATAR</a></li>
                 </ul>
             </nav>
-            <h2 class='pula text-center'>ROMANIA</h2>
+            <h2 class='text-center'>ROMANIA</h2>
             <div class='contact-details'>
                 <!-- Address -->
                 <div class='contact-address'>

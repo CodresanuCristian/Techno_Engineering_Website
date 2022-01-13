@@ -1,5 +1,11 @@
 .services h1{
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-family: Sarabun-Medium, sans-serif;
+    color:#333;
+}
+
+.services{
+    font-family:Quicksand-Medium, sans-serif;
 }
 
 .services h4{

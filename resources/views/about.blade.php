@@ -180,7 +180,7 @@
                 <img src='/img/GiovanniDiFolco.jpg' id='img-emp1' data-toggle="modal" data-target="#modal-employee">
                 <div class='details text-center'>
                     <h5>GIOVANNI DI FOLCO</h5>
-                    <h6>President</h6>
+                    <h6>Senior Partner & President</h6>
                     <div class='social-media'>
                         <a><img src='/icons/twitter.png'></a>
                         <a id='linkedin' target='_blank' href='https://www.linkedin.com/in/giovanni-di-folco-fdbf-fpd-faa-cmdrbf-maric-mfidic-b2901627/'><img src='/icons/linkedin.png'></a>
@@ -193,7 +193,7 @@
                 <img src='/img/EugeniaDunca.jpg' id='img-emp2' data-toggle="modal" data-target="#modal-employee">
                 <div class='details text-center'>
                     <h5>EUGENIA DUNCA</h5>
-                    <h6>President</h6>
+                    <h6>Senior Partner & Managing Director</h6>
                     <div class='social-media'>
                         <a><img src='/icons/twitter.png'></a>
                         <a id='linkedin' target='_blank' href='https://www.linkedin.com/in/eugenia-dunca-483929100/'><img src='/icons/linkedin.png'></a>
@@ -292,19 +292,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Employee 10 -->
-            <div class='meet-box' id='about-employee10'>
-                <img src='/img/1.jpg' id='img-emp10' data-toggle="modal" data-target="#modal-employee">
-                <div class='details text-center'>
-                    <h5>GIOVANNI DIFALCO</h5>
-                    <h6>President</h6>
-                    <div class='social-media'>
-                        <a><img src='/icons/twitter.png'></a>
-                        <a id='linkedin' target='_blank' href=''><img src='/icons/linkedin.png'></a>
-                        <a><img src='/icons/google-plus.png'></a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -321,7 +308,8 @@
                     <p>Giovanni Di Folco is the Senior Partner and the President of Techno Engineering & Associates. He is a highly motivated expatriate multi-discipline professional Civil Engineer with 30 years of experience in the construction and consulting industry (transportation and heavy civil works). Experienced in Projects / Contracts Management and Claims Expert with extensive international experience gained in multi-disciplinary Civil Engineering Projects in Italy, Iran, Libya, South Africa, Kingdom of Lesotho, Sultanate of Oman, United Arab Emirates, Greece and Romania, who attained professional recognition utilizing 30 years of experience in Civil Engineering.<br><br>
                        Demonstrated acumen for construction and design engineering and management at all levels, acute awareness of cost control and project planning, ability to provide an immediate and calculated response to all situations in the financial, contractual, legal and technical sectors of the profession, proven ability to sustain responsibilities from high level management through to operational level.<br><br>
                        He possesses acute awareness of specific Countries and International Law, the importance of quality and safety and the moral and legal responsibilities that they impose. Trained and operates to the most modern standards of ISO 9000, ICE, NEC, JCT and FIDIC Conditions of Contract and the strict and controlled safety regimes in force internationally. Although specialized as a Pavement Engineer by profession, the international experience he has gained has enabled development of a wide diversity of his skills within the Civil Engineering Industry.<br><br>
-                       During his career he has held positions of high responsibility such as “Counsel”, “Engineer” in the sense of “FIDIC”, Project Manager, Country Manager, Claim Expert and Adjudicator on major construction projects. He is a FIDIC expert in his own right. He possesses a vast experience in adjudication using DAB procedures and ICC arbitration either as Expert of opinion, Attorney or Counsel for Claimant or Respondent.
+                       During his career he has held positions of high responsibility such as “Counsel”, “Engineer” in the sense of “FIDIC”, Project Manager, Country Manager, Claim Expert and Adjudicator on major construction projects. He is a FIDIC expert in his own right. He possesses a vast experience in adjudication using DAB procedures and ICC arbitration either as Expert of opinion, Attorney or Counsel for Claimant or Respondent.<br><br>
+                       Quote: “The most powerful force ever known on this planet is human cooperation - a force for construction and destruction.” Jonathan Haidt
                     </p>
                 </div>
                 <!-- Modal footer -->

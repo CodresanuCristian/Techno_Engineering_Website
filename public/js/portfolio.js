@@ -47,11 +47,11 @@ $(document).ready(function(){
     // BOX HOVER 
     $('.portfolio .album').on('mouseenter', '.album-box', function(){
         let box_id = $(this).attr('id');  
-        $('#'+box_id+' img').animate({marginTop: '-150px'});
+        $('#'+box_id+' img').animate({marginTop: '-250px'});
     });
     $('.portfolio .album').on('mouseleave', '.album-box', function(){
         let box_id = $(this).attr('id');  
-        $('#'+box_id+' img').animate({marginTop: '-0px'});
+        $('#'+box_id+' img').animate({marginTop: '0px'});
     });
 
 });

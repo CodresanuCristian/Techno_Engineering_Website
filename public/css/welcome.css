@@ -1,3 +1,57 @@
+/* --------------- */
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url('/font/Quicksand/Quicksand-Regular.ttf');
+}
+
+@font-face {
+    font-family: Quicksand-Medium;
+    src: url('/font/Quicksand/Quicksand-Medium.ttf');
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url('/font/Quicksand/Quicksand-Bold.ttf');
+}
+
+/* ----------- */
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('/font/Roboto/Roboto-Regular.ttf');
+}
+
+/* ---------- */
+@font-face {
+    font-family: Roboto-Medium;
+    src: url('/font/Roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url('/font/Roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: Sarabun-Medium;
+    src: url('/font/Sarabun/Sarabun-Medium.ttf');
+}
+
+/* ---------------- */
+@font-face {
+    font-family: Sarabun-Bold;
+    src: url('/font/Sarabun/Sarabun-Bold.ttf');
+}
+
+@font-face {
+    font-family: Ubuntu-Medium;
+    src: url('/font/Ubuntu/Ubuntu-Medium.ttf');
+}
+
+@font-face {
+    font-family: Ubuntu-Bold;
+    src: url('/font/Ubuntu/Ubuntu-Medium.ttf');
+}
+
 body{
     overflow-x: hidden;
     margin: 0;
@@ -28,6 +82,7 @@ header p{
     margin:0;
     padding: 10px 0px;
     font-size: 13px;
+    font-family: Roboto-Medium, sans-serif;
 }
 
 
@@ -48,12 +103,12 @@ header p{
 .dropdown-lang p:nth-child(2){
     border-top:1px solid #eee;
     border-bottom:1px solid #eee;
+    font-family: Roboto-Regular, sans-serif;
 }
 
 .lang-active{
     background-color: #24B463;
     color:whitesmoke;
-    font-weight: bold;
 }
 
 
@@ -86,6 +141,7 @@ header p{
 .desktop-nav ul a{
     padding: 100px 10px;
     color: #333;    
+    font-family: Roboto-Medium, sans-serif;
 }
 
 .desktop-nav-dark ul a{
@@ -148,6 +204,7 @@ header p{
     padding:8px 16px;
     text-decoration: none;
     font-size: 14px;
+    font-family: Roboto-Medium, sans-serif;
 }
 
 .mob-link-active, .mob-lang-active{
@@ -236,6 +293,7 @@ footer{
 
 footer h4{
     color: whitesmoke;
+    font-family: Sarabun-Bold, sans-serif;
 }
 
 .footer-img{
@@ -280,7 +338,8 @@ footer h4{
     padding: 0px;
     text-overflow: ellipsis;
     white-space: normal;
-    overflow: hidden;   
+    overflow: hidden;  
+    font-family: Roboto-Regular, sans-serif; 
 }
 
 footer .btn-blue{
@@ -300,6 +359,7 @@ footer .btn-blue:hover{
     background: #222;
     border-top:1px solid #555;
     color: #aaa;
+    font-family: Quicksand-Regular, sans-serif;
 }
 
 .copyright a:hover, .copyright a{
@@ -329,6 +389,7 @@ footer .btn-blue:hover{
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
+    font-family: Quicksand-Medium, sans-serif;
 }
 
 .btn-blue:hover, .btn-green:hover{
@@ -363,6 +424,7 @@ footer .btn-blue:hover{
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
+    font-family: Quicksand-Medium, sans-serif;
 }
 
 

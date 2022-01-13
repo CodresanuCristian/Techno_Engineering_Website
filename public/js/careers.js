@@ -110,7 +110,7 @@ $(document).ready(function(){
             case 'employee6':
                 $('.testimonials .section #msg').html('“At TE&A I found a working environment that values my entrepreneurial instincts, offering me the opportunity to develop my strengths and expand my knowledge.”');
                 $('.testimonials .section #author').html('Cerasela Angelescu – Group Marketing, PR & International Administration Director');
-                $('.testimonials .section #avatar').attr('src','/img/CeraselaAngelescu.png');
+                $('.testimonials .section #avatar').attr('src','/img/CeraselaAngelescu.jpg');
                 $('#employee-box6').addClass('employee-box-selected');
                 break;               
             case 'employee7':
