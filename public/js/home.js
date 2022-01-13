@@ -25,7 +25,6 @@ $(document).ready(function(){
 
 
 
-
     // OUR PORTFOLIO - NAVBAR ===================================================================
     $('.home-portfolio-nav').on('click','ul li a', function(){
         let nav_link_id = $(this).attr('id');
@@ -34,24 +33,25 @@ $(document).ready(function(){
         $("#"+nav_link_id).addClass('home-portfolio-active');
 
 
-        let img_path = '';
-        let text_path = '';
-        if (nav_link_id == 'home-portfolio-op1') {img_path = '/national/nat'; text_path = 'National roads';}
-        if (nav_link_id == 'home-portfolio-op2') {img_path = '2'; text_path = 'Railways and metro';}
-        if (nav_link_id == 'home-portfolio-op3') {img_path = '3'; text_path = 'WWTP';}
-        if (nav_link_id == 'home-portfolio-op4') {img_path = '4'; text_path = 'Miscellaneous';}
+        var img_path = '';
+        var text_path = '';
+        if (nav_link_id == 'home-portfolio-op1') {img_path = '/national/nat';         text_path = 1;}
+        if (nav_link_id == 'home-portfolio-op2') {img_path = '/railways/rail';        text_path = 2;}
+        if (nav_link_id == 'home-portfolio-op3') {img_path = '/wwtp/wwtp';            text_path = 3;}
+        if (nav_link_id == 'home-portfolio-op4') {img_path = '/miscellaneous/miscel'; text_path = 4;}
 
-        $('.album').fadeOut('slow', function(){
+        $('.home-portfolio .album').fadeOut('slow', function(){
             for(let i=1; i<=6; i++){
-                $('#album-box'+i+' img').attr('src','/img/'+img_path+i+'.jpg');
-                $('#album-box-text'+i).html(text_path);
+                $('.home-portfolio #album-box'+i+' img').attr('src','/img/'+img_path+i+'.jpg');
+                $('.home-portfolio #album-box-text'+i).html(GetText(i, text_path));
             }
         }).fadeIn('slow');
     });
+    
     // DEFAULT NATIONAL ROADS AND MOTORWAY
     for(let i=1; i<=6; i++){
-        $('#album-box'+i+' img').attr('src','/img/national/nat'+i+'.jpg');
-        $('#album-box-text'+i).html('National roads');
+        $('.home-portfolio #album-box'+i+' img').attr('src','/img/national/nat'+i+'.jpg');
+        $('.home-portfolio #album-box-text'+i).html(GetText(i,1));
     }
     // OUR PORTFOLIO - ALBUM HOVER 
     $('.home-portfolio .album').on('mouseenter', '.album-box', function(){
@@ -124,3 +124,65 @@ $(document).ready(function(){
         $('.content-page').load('portfolio');
     });
 });
+
+
+
+
+
+// MY FUNCTIONS =====================================================================================
+
+function GetText(index, option)
+{
+    let text = '';
+
+    if (option == 1)
+    {
+        switch (index)
+        {
+            case 1: text = 'Rehabilitation of NR 1H Zalau – Alesd, Lot 1: km 0+000 – km 26+510 JV OHL – Peyber Hispanica SL – Societate de intretinere si reparatii drumuri – Timisoara SA'; break;
+            case 2: text = 'Rehabilitation of NR 76, Contract 5R13, Stei – Beius, km 102+660 – 133+66, Romania, Grupo Azvi'; break;
+            case 3: text = 'Rehabilitation of DN 66, Bumbesti Jiu – Petrosani, km 96+500 – km 126+000 COPISA Constructora Pirenaica S.A. Barcelona'; break;
+            case 4: text = 'Design and Build of DN 1C Dej – Baia Mare, Contract 6R10 FCC Construccion SA Barcelona Bucharest Branch'; break;
+            case 5: text = 'Rehabilitation of NR 6 Alexandria – Craiova, Lot 1, km 90+190 – km 132+435 Shapir Structures SRL'; break;
+            case 6: text = 'Design and Build NR 18, Moisei – Iacobeni Shapir Structures SRL'; break;
+        }
+    }
+    else if (option == 2)
+    {
+        switch (index)
+        {
+            case 1: text = ''; break;
+            case 2: text = ''; break;
+            case 3: text = ''; break;
+            case 4: text = ''; break;
+            case 5: text = ''; break;
+            case 6: text = ''; break;
+        }
+    }
+    else if (option == 3)
+    {
+        switch (index)
+        {
+            case 1: text = ''; break;
+            case 2: text = ''; break;
+            case 3: text = ''; break;
+            case 4: text = ''; break;
+            case 5: text = ''; break;
+            case 6: text = ''; break;
+        }
+    }
+    else if (option == 4)
+    {
+        switch (index)
+        {
+            case 1: text = ''; break;
+            case 2: text = ''; break;
+            case 3: text = ''; break;
+            case 4: text = ''; break;
+            case 5: text = ''; break;
+            case 6: text = ''; break;
+        }
+    }
+
+    return text;
+}

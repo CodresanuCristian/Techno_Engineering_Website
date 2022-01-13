@@ -99,21 +99,21 @@
                         <div class="col-lg-6">
                             <div class="d-flex align-items-center pub-box">
                                 <div class="footer-img my-2 mr-2"><img src="/img/blog1.jpg"></div>
-                                <p>Techno Engineering & Associates Group is the appointed Counsel for the Claimants...</p>
+                                <p>Techno Engineering & Associates Group is the appointed Counsel for the Claimants techno Engineering & Associates Group is the appointed Counsel for the Claimants</p>
                             </div>
                             <div class="d-flex align-items-center pub-box">
-                                <div class="footer-img my-2 mr-2"><img src="/img/blog2.jpg"></div>
-                                <p class="background:orange;">No win, no fee!<br>We handle a vast majority of compensation...</p>
+                                <div class="footer-img my-2 mr-2"><img src="/img/blog1.jpg"></div>
+                                <p>No win, no fee!<br>We handle a vast majority of compensation techno Engineering & Associates Group is the appointed Counsel for the Claimants</p>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="d-flex align-items-center pub-box">
                                 <div class="footer-img my-2 mr-2"><img src="/img/blog3.jpg"></div>
-                                <p>Today we have the pleasure of congratulating our Claims Manager and Head of Contracts ...</p>
+                                <p>Today we have the pleasure of congratulating our Claims Manager and Head of Contracts techno Engineering & Associates Group is the appointed Counsel for the Claimants</p>
                             </div>
                             <div class="d-flex align-items-center pub-box">
                                 <div class="footer-img my-2 mr-2"><img src="/img/blog4.jpg"></div>
-                                <p>We are thrilled to announce that on 16 November, Mr. Giovanni Di Folco will attend ...</p>
+                                <p>We are thrilled to announce that on 16 November, Mr. Giovanni Di Folco will attend techno Engineering & Associates Group is the appointed Counsel for the Claimants</p>
                             </div>
                         </div>
                     </div>

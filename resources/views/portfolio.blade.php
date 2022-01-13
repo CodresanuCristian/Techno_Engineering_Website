@@ -1,3 +1,11 @@
+@php
+    $count_box_op1 = 35;
+    $count_box_op2 = 5;
+    $count_box_op3 = 12;
+    $count_box_op4 = 3;
+@endphp
+
+
 <div class='portfolio'>
     <nav class="portfolio-nav my-5 container">
         <ul class="nav">
@@ -9,7 +17,7 @@
     </nav>
     <div class='container-fluid album-wrap'>
         <div class="my-5 album" id='national'>
-            @for ($i=1; $i<=20; $i++)
+            @for ($i=1; $i<=$count_box_op1; $i++)
                 <div class="album-box" id="album-pic{{$i}}">
                     <img>
                     <div class="album-text">
@@ -19,7 +27,7 @@
             @endfor
         </div>
         <div class="my-5 album" id='railways'>
-            @for ($i=1; $i<=10; $i++)
+            @for ($i=1; $i<=$count_box_op2; $i++)
                 <div class="album-box" id="album-pic{{$i}}">
                     <img>
                     <div class="album-text">
@@ -29,7 +37,7 @@
             @endfor
         </div>
         <div class="my-5 album" id='wwtp'>
-            @for ($i=1; $i<=5; $i++)
+            @for ($i=1; $i<=$count_box_op3; $i++)
                 <div class="album-box" id="album-pic{{$i}}">
                     <img>
                     <div class="album-text">
@@ -39,7 +47,7 @@
             @endfor
         </div>
         <div class="my-5 album" id='miscel'>
-            @for ($i=1; $i<=40; $i++)
+            @for ($i=1; $i<=$count_box_op4; $i++)
                 <div class="album-box" id="album-pic{{$i}}">
                     <img>
                     <div class="album-text">
