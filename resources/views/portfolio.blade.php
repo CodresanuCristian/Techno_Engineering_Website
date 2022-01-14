@@ -7,7 +7,7 @@
 
 
 <div class='portfolio'>
-    <nav class="portfolio-nav my-5 container">
+    <nav class="portfolio-nav my-5 container-fluid">
         <ul class="nav">
             <li><a class="portfolio-active" id="portfolio1">National roads &amp; motorway</a></li>
             <li><a id="portfolio2">Railways &amp; metro</a></li>

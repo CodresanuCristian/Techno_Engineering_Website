@@ -37,7 +37,7 @@
 .box4-not-in-view{color:#1a759f;}
 
 .box1-in-view, .box2-in-view, .box3-in-view, .box4-in-view{
-    color:whitesmoke; 
+    color:white; 
     transition: all .4s ease; 
     -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease; 
@@ -46,7 +46,7 @@
 }
 
 .box1-not-in-view, .box2-not-in-view, .box3-not-in-view, .box4-not-in-view{
-    background: white; 
+    background: #F5F5F5; 
     transition: all .4s ease; 
     -webkit-transition: all .4s ease; 
     -moz-transition: all .4s ease; 
@@ -73,7 +73,6 @@
 }
 
 .about .row .box-text{
-    /* background: url('/img/1.jpg'); */
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -94,15 +93,27 @@
 .about .boxes .row p{
     width: 100%;
     height: 100%;
-    background: rgba(20,20,20,.5);
+    background: rgba(20,20,20,.6);
     margin:0;
     display: flex;
     justify-content:center;
     align-items: center;
     padding: 10%;
-    font-family: Quicksand-Medium, sans-serif;
+    font-family: Quicksand-Bold, sans-serif;
+    font-size:17px;
 }
 
+.about .text1-in-view, .about .text2-in-view, .about .text3-in-view, .about .text4-in-view{
+    transform-style: preserve-3d;
+    transform: scale(1.2);
+    transition: all ease .7s;
+}
+
+.about .text1-not-in-view, .about .text2-not-in-view, .about .text3-not-in-view, .about .text4-not-in-view{
+    transform-style: preserve-3d;
+    transform: scale(1);
+    transition: all ease .7s;
+}
 
 
 
@@ -112,7 +123,7 @@
 }
 
 .about .how-we-started .container h1{
-    margin: 0px 20%;
+    margin: 0px auto;
     border-bottom: 3px solid #2867ae;
     font-family: Sarabun-Bold, sans-serif;
 }
@@ -393,7 +404,7 @@
         flex-direction: column-reverse;
     }
     #rect1 #box1, #rect1 .box-text p, #rect2 #box2, #rect2 .box-text p, #rect3 #box3, #rect3 .box-text p, #rect4 #box4, #rect4 .box-text p{
-        min-height:100vh;
+        min-height:80vh;
     }
 }
 @media only screen and (max-width: 650px) {

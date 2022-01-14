@@ -4,21 +4,25 @@ $(document).ready(function(){
     $(document).on('scroll', function(){
         var rect_numb = 0;
 
-        if (($('#rect1 #box1 h2').inView('both') == true) || ($('#rect1 #box-text1 p').inView('top') == true)) rect_numb = 1;
-        else if (($('#rect2 #box2 h2').inView('both') == true) || ($('#rect2 #box-text2 p').inView('top') == true)) rect_numb = 2;
-        else if (($('#rect3 #box3 h2').inView('both') == true) || ($('#rect3 #box-text3 p').inView('top') == true)) rect_numb = 3;
-        else if (($('#rect4 #box4 h2').inView('both') == true) || ($('#rect4 #box-text4 p').inView('top') == true)) rect_numb = 4;
+        if (($('#rect1 #box1').inView('top') == true) || ($('#rect1 #box-text1').inView('both') == true)) rect_numb = 1;
+        else if (($('#rect2 #box2').inView('top') == true) || ($('#rect2 #box-text2').inView('both') == true)) rect_numb = 2;
+        else if (($('#rect3 #box3').inView('top') == true) || ($('#rect3 #box-text3').inView('both') == true)) rect_numb = 3;
+        else if (($('#rect4 #box4').inView('top') == true) || ($('#rect4 #box-text4').inView('both') == true)) rect_numb = 4;
 
         for (let i=1; i<5; i++){
             if (i == rect_numb){
                 $('.about #box'+i).removeClass('box'+i+'-not-in-view');
                 $('.about #box'+i).addClass('box'+i+'-in-view');
+                $('.about #box'+i+' h2').removeClass('text'+i+'-not-in-view');
+                $('.about #box'+i+' h2').addClass('text'+i+'-in-view');
                 $('.about #rect'+i+' p').removeClass('p'+i+'-not-in-view');
                 $('.about #rect'+i+' p').addClass('p'+i+'-in-view');
             }
             else{
                 $('.about #box'+i).removeClass('box'+i+'-in-view');
                 $('.about #box'+i).addClass('box'+i+'-not-in-view');
+                $('.about #box'+i+' h2').removeClass('text'+i+'-in-view');
+                $('.about #box'+i+' h2').addClass('text'+i+'-not-in-view');
                 $('.about #rect'+i+' p').removeClass('p'+i+'-in-view');
                 $('.about #rect'+i+' p').addClass('p'+i+'-not-in-view');
             }

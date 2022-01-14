@@ -1,7 +1,10 @@
-.portfolio .nav{
-    position: -webkit-sticky;
+.portfolio .portfolio-nav{
+  position: -webkit-fixed;
   position: sticky;
-  top: 50px;
+  top: 44px;
+  z-index:5;
+  background:white;
+  padding:20px 10px;
 }
 
 .portfolio .portfolio-nav ul{
@@ -36,13 +39,14 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    padding: 15px 0px;
 }
 
 .portfolio .album-box{
     height: 300px;
     width: 300px;
     min-width: 300px;
-    margin:5px;
+    margin:10px 5px;
     overflow: hidden;
     position: relative;
     border-radius:5px;
@@ -76,4 +80,23 @@
 
 #railways, #wwtp, #miscel{
     display:none;
+}
+
+
+@media only screen and (max-width: 898px) {
+    .portfolio .portfolio-nav ul li a{
+        font-size:14px;
+    }
+    .portfolio .portfolio-nav ul li{
+        margin: 12px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .portfolio .portfolio-nav ul li a{
+        font-size:12px;
+    }
+    .portfolio .portfolio-nav ul li{
+        margin: 10px;
+    }
 }

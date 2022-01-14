@@ -17,7 +17,7 @@
         <!-- Box 1 -->
         <div class='row' id='rect1' style='margin-top:250px;'>
             <div class='col-md-6 d-flex justify-content-center align-items-center text-center' id='box1'>
-                <h2>About TE&A </h2>
+                <h2>ABOUT TE&A </h2>
             </div>
             <div class='col-md-6 box-text' id='box-text1'>
                 <p>Techno Engineering & Associates (“TE&A”) is a 130-person strong International Consulting firm, operating in the Balkans, Eastern Europe, Northern Africa and the Middle East, specializing in providing expert contract and construction law advice relating to any aspect in connection with construction contracts, including the preparation, substantiation and defence of complex Construction Claims through Dispute Resolution, international arbitration and/or national Courts.<br><br>
@@ -31,13 +31,13 @@
                 <p>With the support of TE&A, you will have the opportunity to benefit daily from our specialized assistance in your work, the personal and professional development of your project teams and added construction business community involvement.</p>
             </div>
             <div class='col-md-6 d-flex justify-content-center align-items-center text-center' id='box2'>
-                <h2>Why choose TE&A ?</h2>
+                <h2>WHY CHOOSE TE&A ?</h2>
             </div>
         </div>
         <!-- Box 3 -->
         <div class='row' id='rect3'>
             <div class='col-md-6 d-flex justify-content-center align-items-center text-center' id='box3'>
-                <h2>Culture</h2>
+                <h2>CULTURE</h2>
             </div>
             <div class='col-md-6 box-text' id='box-text3'>
                 <p>We encourage fresh ideas and a collaborative approach to delivering an unparalleled service which will entail pragmatic solutions for our clients.<br><br><br>
@@ -54,7 +54,7 @@
                 </p>
             </div>
             <div class='col-md-6 d-flex justify-content-center align-items-center text-center' id='box4'>
-                <h2>Diversity</h2>
+                <h2>DIVERSITY</h2>
             </div>
         </div>
     </div>
@@ -352,7 +352,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
 </div>
 
 <script src='/js/about.js'></script>

@@ -1,31 +1,18 @@
 $(document).ready(function(){
-    // OUR SERVICES - CAROUSEL =================================================================
-    $('#recipeCarousel').carousel({
-        interval: 6000
-    });
-    $('.carousel .carousel-item').each(function(){
-        var minPerSlide = 3;
-        var next = $(this).next();
-        if (!next.length) {
-        next = $(this).siblings(':first');
-        }
-        next.children(':first-child').clone().appendTo($(this));
-        
-        for (var i=0;i<minPerSlide;i++) {
-            next=next.next();
-            if (!next.length) {
-                next = $(this).siblings(':first');
-            }
-            
-            next.children(':first-child').clone().appendTo($(this));
+        // MY CAROUSEL ========================================
+    $('#autoWidth').lightSlider({
+        onSliderLoad: function(){
+            $('#autoWidth').removeClass('cS-hidden');
         }
     });
-
 
 
 
 
     // OUR PORTFOLIO - NAVBAR ===================================================================
+    $('.home-portfolio-nav').on('tap','ul li a', function(){
+        alert('da');
+    });
     $('.home-portfolio-nav').on('click','ul li a', function(){
         let nav_link_id = $(this).attr('id');
 
@@ -106,7 +93,7 @@ $(document).ready(function(){
         $('.content-page').load('about');
     });
     // OUR SERVICES BUTTON ============================================
-    $('.home-services').on('click','#home-services-btn',function(){
+    $('.carousel').on('click','#home-services-btn',function(){
         $('ul li a').removeClass('link-active');
         $('#services').addClass('link-active');
         $('.mob-nav-options li a').removeClass('mob-link-active');

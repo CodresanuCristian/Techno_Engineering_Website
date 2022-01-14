@@ -22,7 +22,7 @@
 
 
 
-
+ 
 <!-- OUR SERVICES ================================ -->
 <div class="container home-services">
     <div class="home-services-text d-flex flex-column">
@@ -32,88 +32,78 @@
             <p class="col-6-sm">We are able to identify unnecessary costs in design and construction without sacrificing quality or performance requirements.</p>
         </div>
     </div>
-    <div class="row mx-auto my-5">
-        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
-            <div class="carousel-inner w-100" role="listbox">
-                <div class="carousel-item active">
-                    <div class="col-md-4">
-                        <div class="card text-center">
-                            <img class="img-fluid" src="/img/service1.jpg">
-                            <div class="card-body">
-                                <h5>Contract Management Assistance</h5>
-                                <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card text-center">
-                            <img class="img-fluid" src="/img/service2.jpg">
-                            <div class="card-body">
-                                <h5>Claims &amp; Disputes Resolution</h5>
-                                <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card text-center">
-                            <img class="img-fluid" src="/img/service3.jpg">
-                            <div class="card-body">
-                                <h5>Quantity Surveying</h5>
-                                <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card text-center">
-                            <img class="img-fluid" src="/img/service4.jpg">
-                            <div class="card-body">
-                                <h5>Planning &amp; Progress Monitoring</h5>
-                                <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card text-center">
-                            <img class="img-fluid" src="/img/service5.jpg">    
-                            <div class="card-body">
-                                <h5>Tendering &amp; Procurement</h5>
-                                <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card text-center">
-                            <img class="img-fluid" src="/img/service6.jpg">    
-                            <div class="card-body">
-                                <h5>Value Engineering</h5>
-                                <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
 </div>
 
+
+{{-- My Carousel --}}
+
+<div class='carousel'>
+    <div class='container'>
+        {{-- slider --}}
+        <ul id='autoWidth' class='cS-hidden'>
+            {{-- 1 --}}
+            <li class='item-a'>
+                <div class='box'>
+                    <img src='/img/service1.jpg'>
+                    <div class='details'>
+                        <h4>Contract Management Assistance</h4>
+                        <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
+                    </div>
+                </div>
+            </li>
+            {{-- 2 --}}
+            <li class='item-b'>
+                <div class='box'>
+                    <img src='/img/service2.jpg'>
+                    <div class='details'>
+                        <h4>Claims &amp; Disputes Resolution</h4>
+                        <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
+                    </div>
+                </div>
+            </li>
+            {{-- 3 --}}
+            <li class='item-c'>
+                <div class='box'>
+                    <img src='/img/service3.jpg'>
+                    <div class='details'>
+                        <h4>Quantity Surveying</h4>
+                        <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
+                    </div>
+                </div>
+            </li>
+            {{-- 4 --}}
+            <li class='item-d'>
+                <div class='box'>
+                    <img src='/img/service4.jpg'>
+                    <div class='details'>
+                        <h4>Planning &amp; Progress Monitoring</h4>
+                        <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
+                    </div>
+                </div>
+            </li>
+            {{-- 5 --}}
+            <li class='item-e'>
+                <div class='box'>
+                    <img src='/img/service5.jpg'>
+                    <div class='details'>
+                        <h4>Tendering &amp; Procurement</h4>
+                        <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
+                    </div>
+                </div>
+            </li>
+            {{-- 6 --}}
+            <li class='item-f'>
+                <div class='box'>
+                    <img src='/img/service6.jpg'>
+                    <div class='details'>
+                        <h4>Value Engineering</h4>
+                        <button type="button" class="btn-blue" id="home-services-btn">READ MORE</button>
+                    </div>
+                </div>
+            </li>
+        </ul> 
+    </div>
+</div>
 
 
 
@@ -202,3 +192,4 @@
 
 
 <script src="/js/home.js"></script>
+<script src="/js/lightslider.js"></script>

@@ -101,6 +101,15 @@
     background:#1a759f;
 }
 
+.available-position .details-op::-webkit-scrollbar {
+    display: none;
+}
+
+.available-position .details-op {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
 .available-position .desktop .details-box{
     width:100vw;
     height:600px;
@@ -158,6 +167,11 @@
 
 .testimonials .avatar{
     justify-content: end;
+}
+
+.testimonials h4{
+    color: #2867ae;
+    font-family: Quicksand-Bold, sans-serif;
 }
 
 .testimonials .avatar .round-box{
@@ -254,7 +268,7 @@
         text-align: left;
     }
 }
-
+ 
 
 
 @media only screen and (max-width: 991px) {
@@ -271,6 +285,18 @@
     .testimonials .avatar .round-box{
         width:300px;
         height: 300px;
+    }
+    .testimonials .avatar .round-box img{
+        height: 300px;
+        width: 300px;
+    }
+    .testimonials .footer .employee-box{
+        height:80px;
+        width:80px;
+    }
+    .testimonials .footer .employee-box img{
+        height:80px;
+        width:80px;
     }
     .testimonials .avatar{
         justify-content: center;
@@ -309,5 +335,57 @@
     }
     .available-position .mobile-details p{
         text-align: left;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .careers h1{
+        font-size: 40px;
+    }
+    .careers p{
+        font-size: 15px;
+    }
+
+    .careers .available-position h3{
+        font-size: 20px;
+    }
+    #author{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 440px) {
+    .testimonials .avatar .round-box{
+        width:200px;
+        height:200px;
+    }
+    .testimonials .avatar .round-box img{
+        height: 200px;
+        width: 200px;
+    }
+    .testimonials .footer .employee-box{
+        height:60px;
+        width:60px;
+    }
+    .testimonials .footer .employee-box img{
+        height:60px;
+        width:60px;
+    }
+}
+
+
+
+
+@media only screen and (max-height: 640px) {
+    .join-our-team .img-box, .why-join-us .img-box{
+        height:300px;
     }
 }

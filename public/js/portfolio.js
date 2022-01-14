@@ -4,6 +4,7 @@ $(document).ready(function(){
     
         $('.portfolio .portfolio-nav ul li a').removeClass('portfolio-active');
         $("#"+nav_link_id).addClass('portfolio-active');
+        $('html').animate({scrollTop:0});
     
         let img_path = '';
         let text_path = '';
@@ -26,11 +27,12 @@ $(document).ready(function(){
             if (album_id == '#miscel')   $('.portfolio #miscel').css({'display':'flex'});
 
             for(let i=1; i<=box_numb; i++){
-                $('#album-pic'+i+' img').attr('src','/img/'+img_path+i+'.jpg');
+                // $('#album-pic'+i+' img').attr('src','/img/'+img_path+i+'.jpg'); ======================== CAND VIN RESTUL POZELOR ====================================
+                $('#album-pic'+i+' img').attr('src','/img/'+img_path+'1.jpg');
                 $('#album-text'+i).html(GetTextPortfolio(i, text_path));
             }
         }).fadeIn('slow');
-    });
+    }); 
     
 
 
@@ -38,7 +40,8 @@ $(document).ready(function(){
     // DEFAULT NATIONAL ROADS AND MOTORWAY
     const default_box_numb = 35;
     for(let i=1; i<=default_box_numb; i++){
-        $('#album-pic'+i+' img').attr('src','/img/national/nat'+i+'.jpg');
+        // $('#album-pic'+i+' img').attr('src','/img/national/nat'+i+'.jpg'); ************************************CAND VIN RESTUL POZELOR**********************************
+        $('#album-pic'+i+' img').attr('src','/img/national/nat1.jpg');
         $('#album-text'+i).html(GetTextPortfolio(i, 1));
     }
 
