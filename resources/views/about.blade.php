@@ -15,7 +15,7 @@
     </div>
     <div class='boxes'>
         <!-- Box 1 -->
-        <div class='row' id='rect1' style='margin-top:250px;'>
+        <div class='row' id='rect1'>
             <div class='col-md-6 d-flex justify-content-center align-items-center text-center' id='box1'>
                 <h2>ABOUT TE&A </h2>
             </div>
@@ -62,7 +62,7 @@
 
     <!-- HOW WE STARTED ========================================== -->
     <div class='how-we-started'>
-        <div class='container' style='margin-top:250px;'>
+        <div class='container'>
             <h1 class='mt-5 pt-5 pb-3 text-center'>How we started</h1>
             <div class='desktop-how-we-started'>
                 <div class='container left-side'>
@@ -115,7 +115,6 @@
             <div class="mobile-how-we-started">
                 <!-- Box 1 -->
                 <div class='started-1'>
-                    <div class='round-img' style='right:-37px;'><img src='/icons/email.ico'></div>
                     <div class='year'><h6>2004<h6></div>
                     <div class='title mt-3 mb-4'><h3>ESTABLISHMENT OF TE&A</h3></div>
                     <div class='text'>
@@ -126,7 +125,6 @@
                 </div>
                 <!-- Box 2 -->
                 <div class='started-1'>
-                    <div class='round-img' style='left:-37px;'><img src='/icons/email.ico'></div>
                     <div class='year'><h6>2011<h6></div>
                     <div class='title mt-3 mb-4'><h3>INTERNATIONAL GROWTH</h3></div>
                     <div class='text'>
@@ -137,7 +135,6 @@
                 </div>
                 <!-- Box 3 -->
                 <div class='started-2'>
-                    <div class='round-img' style='right:-37px;'><img src='/icons/email.ico'></div>
                     <div class='year'><h6>2013<h6></div>
                     <div class='title mt-3 mb-4'><h3>INTERNATIONAL RECOGNITION</h3></div>
                     <div class='text'>
@@ -146,7 +143,6 @@
                 </div>
                 <!-- Box 4 -->
                 <div class='started-2'>
-                    <div class='round-img' style='left:-37px;'><img src='/icons/email.ico'></div>
                     <div class='year'><h6><h6></div>
                     <div class='title mt-3 mb-4'><h3>PRESENT</h3></div>
                     <div class='text'>
@@ -304,7 +300,7 @@
                     <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
                 </div>
                 <!-- Modal body -->
-                <div class="modal-body p-5">
+                <div class="modal-body">
                     <p>Giovanni Di Folco is the Senior Partner and the President of Techno Engineering & Associates. He is a highly motivated expatriate multi-discipline professional Civil Engineer with 30 years of experience in the construction and consulting industry (transportation and heavy civil works). Experienced in Projects / Contracts Management and Claims Expert with extensive international experience gained in multi-disciplinary Civil Engineering Projects in Italy, Iran, Libya, South Africa, Kingdom of Lesotho, Sultanate of Oman, United Arab Emirates, Greece and Romania, who attained professional recognition utilizing 30 years of experience in Civil Engineering.<br><br>
                        Demonstrated acumen for construction and design engineering and management at all levels, acute awareness of cost control and project planning, ability to provide an immediate and calculated response to all situations in the financial, contractual, legal and technical sectors of the profession, proven ability to sustain responsibilities from high level management through to operational level.<br><br>
                        He possesses acute awareness of specific Countries and International Law, the importance of quality and safety and the moral and legal responsibilities that they impose. Trained and operates to the most modern standards of ISO 9000, ICE, NEC, JCT and FIDIC Conditions of Contract and the strict and controlled safety regimes in force internationally. Although specialized as a Pavement Engineer by profession, the international experience he has gained has enabled development of a wide diversity of his skills within the Civil Engineering Industry.<br><br>
@@ -332,7 +328,7 @@
             <h1 class='mb-5'>Our values</h1>
             <div class='row align-items-center'>
                 <div class='col-lg-7'>
-                    <p style='border-left: 3px solid #2867ae; padding-left:10px;'>The ideals and values that we established continue to guide the way we operate today – even as we evolve to meet ever-changing international market requirements and business conditions. The values which shape our mode of conduct and decision-making are:</p>
+                    <p class='paragraph'>The ideals and values that we established continue to guide the way we operate today – even as we evolve to meet ever-changing international market requirements and business conditions. The values which shape our mode of conduct and decision-making are:</p>
                     <div class='values-block d-flex justify-content-center flex-wrap my-5'>
                         <p id='val1' class='value-active'>TRUST</p>
                         <p id='val2'>EXCELLENCE</p>
@@ -342,7 +338,7 @@
                         <p id='val6'>ETHICS</p>
                     </div>
                     <div class='val-text'>
-                        <p style='border-left: 3px solid #2867ae; padding-left:10px;'>Our reputation as a trustworthy business partner is of paramount importance to our team and is absolutely critical to our present and future business success.<br>
+                        <p class='paragraph'>Our reputation as a trustworthy business partner is of paramount importance to our team and is absolutely critical to our present and future business success.<br>
                         Honesty, professionalism and ethical behavior play an integral part in our communication and the way we provide our services.
                         </p>
                     </div>

@@ -19,7 +19,7 @@
         <link rel="stylesheet" type="text/css" href="/css/lightslider.css">
     </head>
     <body>
-        <!-- HEADER -->
+        <!-- HEADER --> 
         <header >
             <div class="text-center dropdown-lang-title">
                 <div class="d-flex align-items-center">
@@ -95,34 +95,34 @@
         <!-- FOOTER -->
         <footer class="d-flex justify-content-center">
             <div class="container row">
-                <div class="col-lg-9 col-md-8 col-sm-8 py-5">
+                <div class="col-lg-9 col-md-8 col-sm-12 py-5">
                     <h4 class="my-4">Publications</h4>
                     <div class="row d-flex justify-content-center">
                         <div class="col-lg-6">
                             <div class="d-flex align-items-center pub-box">
                                 <div class="footer-img my-2 mr-2"><img src="/img/blog1.jpg"></div>
-                                <p>Techno Engineering & Associates Group is the appointed Counsel for the Claimants techno Engineering & Associates Group is the appointed Counsel for the Claimants</p>
+                                <p class='my-2 py-2'>Techno Engineering & Associates Group is the appointed Counsel for the Claimants techno Engineering & Associates Group is the appointed Counsel for the Claimants</p>
                             </div>
                             <div class="d-flex align-items-center pub-box">
                                 <div class="footer-img my-2 mr-2"><img src="/img/blog1.jpg"></div>
-                                <p>No win, no fee!<br>We handle a vast majority of compensation techno Engineering & Associates Group is the appointed Counsel for the Claimants</p>
+                                <p class='my-2 py-2'>No win, no fee!<br>We handle a vast majority of compensation techno Engineering & Associates Group is the appointed Counsel for the Claimants</p>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="d-flex align-items-center pub-box">
                                 <div class="footer-img my-2 mr-2"><img src="/img/blog3.jpg"></div>
-                                <p>Today we have the pleasure of congratulating our Claims Manager and Head of Contracts techno Engineering & Associates Group is the appointed Counsel for the Claimants</p>
+                                <p class='my-2 py-2'>Today we have the pleasure of congratulating our Claims Manager and Head of Contracts techno Engineering & Associates Group is the appointed Counsel for the Claimants</p>
                             </div>
                             <div class="d-flex align-items-center pub-box">
                                 <div class="footer-img my-2 mr-2"><img src="/img/blog4.jpg"></div>
-                                <p>We are thrilled to announce that on 16 November, Mr. Giovanni Di Folco will attend techno Engineering & Associates Group is the appointed Counsel for the Claimants</p>
+                                <p class='my-2 py-2'>We are thrilled to announce that on 16 November, Mr. Giovanni Di Folco will attend techno Engineering & Associates Group is the appointed Counsel for the Claimants</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-4 d-flex flex-column align-items-center text-center py-5">
+                <div class="col-lg-3 col-md-4 col-sm-12 d-flex flex-column align-items-center text-center py-5">
                     <h4 class="my-4">Get In Touch</h4>
-                    <p class="m-0 pb-3">Are you looking for a new job?<br>We have available a few positions !</p>
+                    <p class="m-0 pb-3" style='width:250px;'>Are you looking for a new job?<br>We have available a few positions !</p>
                     <button class="btn-blue" type="button" id='careers-short-btn'>Take a look</button>
                     <p class="m-0 py-2">OR</p>
                     <button class="btn-blue mb-5" type="button" id='contact-short-btn'>Write us now</button>

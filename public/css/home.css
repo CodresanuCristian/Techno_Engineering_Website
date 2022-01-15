@@ -89,7 +89,7 @@ video{
 
 .carousel .container{
     width:100%;
-    height:80vh;
+    height:700px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -175,6 +175,14 @@ video{
 .home-portfolio h1{
     font-weight: bold;
     font-family: Sarabun-Bold, sans-serif;
+}
+
+.home-portfolio {
+    padding:0;
+}
+
+.home-portfolio .container-fluid{
+    padding:0;
 }
 
 .home-portfolio-nav ul{
@@ -285,6 +293,7 @@ video{
     justify-content: center;
     align-items: center;
     max-width:300px;
+    width:100vw;
 }
 
 .home-subscribe-input .subscribe-text h4{
@@ -494,7 +503,7 @@ video{
     }
 }
 
-
+ 
 @media only screen and (max-width: 576px) {
     .home-services-text{
         justify-content: center;
@@ -528,7 +537,89 @@ video{
         margin-left: -20px;
     }
     
-    .carousel .box{
+    .carousel .box, .carousel .box img{
         width:95vw;
+    }
+
+    .home-about h3{
+        font-size: 25px;
+    }
+    .home-services h1{
+        font-size:40px;
+    }
+
+    .home-about, .home-services, .home-parallax, .home-portfolio, .home-subscribe{
+        margin-top: 150px;
+    }
+    .subscribe-text{
+        justify-content: end;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .home-about h3{
+        font-size: 22px;
+    }
+    .home-about h5{
+        font-size: 17px;
+    }
+    .home-about-box1{   
+        padding:30px;
+    }
+    .home-services h1{
+        font-size:35px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .home-portfolio-nav ul li a{
+        font-size:12px;
+    }
+    .home-portfolio-nav ul li{
+        margin: 10px;
+    }
+
+    .home-services h5{
+        font-size:17px;
+    }
+
+    .home-services h1, .home-parallax h1, .home-portfolio h1{
+        font-size: 27px;
+    }
+
+    .home-services p{
+        font-size:15px;
+    }
+    .home-subscribe-input h4{
+        font-size:22px;
+    }
+}
+
+@media only screen and (max-width: 898px) {
+    .home-portfolio-nav ul li a{
+        font-size:14px;
+    }
+    .home-portfolio-nav ul li{
+        margin: 12px;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+    .carousel .container{
+        height:500px;
+    }
+    .carousel .box{
+        height:350px;
+        padding-top:20px;
+        padding-bottom:20px;
+        justify-content: space-evenly;
+    }
+    .carousel .box img{
+        height:180px;
+    }
+    .carousel .box h4{
+        font-size:20px;
+        min-height:50px;
+        overflow: hidden;
     }
 }

@@ -123,7 +123,7 @@
 <!-- PORTFOLIO ===================================-->
 <div class="container home-portfolio">
     <h1>Take a look<br>at <span class="green-span">our portfolio !</span></h1>
-    <nav class="home-portfolio-nav my-5 container">
+    <nav class="home-portfolio-nav my-5 container-fluid">
         <ul class="nav">
             <li><a class="home-portfolio-active" id="home-portfolio-op1">National roads &amp; motorway</a></li>
             <li><a id="home-portfolio-op2">Railways &amp; metro</a></li>

@@ -13,7 +13,7 @@
     font-family: Quicksand-Bold;
     src: url('/font/Quicksand/Quicksand-Bold.ttf');
 }
-
+ 
 /* ----------- */
 @font-face {
     font-family: Roboto-Regular;
@@ -40,16 +40,6 @@
 @font-face {
     font-family: Sarabun-Bold;
     src: url('/font/Sarabun/Sarabun-Bold.ttf');
-}
-
-@font-face {
-    font-family: Ubuntu-Medium;
-    src: url('/font/Ubuntu/Ubuntu-Medium.ttf');
-}
-
-@font-face {
-    font-family: Ubuntu-Bold;
-    src: url('/font/Ubuntu/Ubuntu-Medium.ttf');
 }
 
 body{
@@ -439,6 +429,12 @@ footer .btn-blue:hover{
 
 /* MEDIA QUERY===================== */
 
+@media only screen and (max-width: 991px) {
+    footer .pub-box p{
+        width:250px;
+    }
+}
+
 @media only screen and (max-width: 960px) {
     .desktop-nav .lg-brand img{
         height: 50px;
@@ -466,6 +462,13 @@ footer .btn-blue:hover{
     }
 }
 
+@media only screen and (max-width: 767px) {
+    footer .pub-box p{
+        width:100%;
+    }
+}
+
+
 @media only screen and (max-width: 720px) {
     .desktop-nav .lg-brand img, .desktop-nav .sm-brand img{
         display:none;
@@ -489,5 +492,22 @@ footer .btn-blue:hover{
 
     footer h4{
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .footer-img{
+        height: 100px;
+        min-width: 100px;
+        max-width: 100px;
+    }
+    
+    .footer-img img{
+        height: 100px;
+        width: 100px;
+    }
+
+    footer p{
+        font-size:15px;
     }
 }

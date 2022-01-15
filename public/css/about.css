@@ -26,6 +26,10 @@
     color:whitesmoke;
 }
 
+.about #rect1{
+    margin-top:250px;
+}
+
 .box1-in-view{background:#52b69a;}
 .box2-in-view{background:#34a0a4;}
 .box3-in-view{background:#168aad;}
@@ -120,6 +124,7 @@
 /* HOW WE STARTED ============================================================== */
 .about .how-we-started .container{
     padding: 0;
+    margin-top:250px;
 }
 
 .about .how-we-started .container h1{
@@ -300,6 +305,10 @@
 }
 
 
+.about .modal-body{
+    padding:30px;
+}
+
 .about .modal-content p{
     font-family: Quicksand-Medium, sans-serif;
 }
@@ -311,7 +320,7 @@
     cursor: pointer;
 }
 
-#about-employee3, #about-employee4, #about-employee5, #about-employee6, #about-employee7, #about-employee8, #about-employee9, #about-employee10{
+#about-employee3, #about-employee4, #about-employee5, #about-employee6, #about-employee7, #about-employee8, #about-employee9{
     display:none;
 }
 
@@ -326,6 +335,10 @@
 
 .our-values h1{
     font-family: Sarabun-Bold, sans-serif;
+}
+
+.our-values .paragraph{
+    border-left: 3px solid #2867ae; padding-left:10px;
 }
 
 .our-values .container .row {
@@ -398,6 +411,14 @@
     .about .mobile-how-we-started .title{
         text-align:center;
     }
+    .about .meet nav li a{
+        font-size: 14px;
+    }
+
+    .about .meet nav li{
+        margin-top:12px;
+        margin-bottom:12px;
+    }
 }
 @media only screen and (max-width: 767px) {
     #rect2, #rect4{
@@ -405,10 +426,163 @@
     }
     #rect1 #box1, #rect1 .box-text p, #rect2 #box2, #rect2 .box-text p, #rect3 #box3, #rect3 .box-text p, #rect4 #box4, #rect4 .box-text p{
         min-height:80vh;
+        text-align: center;
     }
 }
 @media only screen and (max-width: 650px) {
     .about .overview-text{
         column-count: 1;
+    }
+
+    .our-values h1{
+        text-align:center;
+    }
+
+    .our-values .paragraph{
+        border:none;
+        text-align: center;
+    }
+
+    .about{
+        padding: 100px 0px 200px 0px;
+    }
+} 
+
+@media only screen and (max-width: 576px) {
+    .about .overview h1, .about .overview p{
+        text-align: center;
+    }
+
+    .about h1{
+        font-size: 40px;
+    }
+
+    .about h2{
+        font-size: 27px;
+    }
+
+    .about h3{
+        font-size: 24px;
+    }
+
+    .about h6{
+        font-size: 15px;
+    }
+
+    .about p, ol li{
+        font-size: 15px;
+    }
+    .about .boxes .row p{
+        font-size:15px;
+    }
+
+    .about .how-we-started p{
+        text-align: center;
+    }
+
+    .about .modal-body{
+        padding: 20px 15px;
+    }
+    .about .modal-body p{
+        text-align: center;
+    }
+
+    .about .meet, .about .our-values{
+        margin-top:150px;
+    }
+    .about #rect1, .about .how-we-started .container{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .about .meet .container-fluid{
+        padding:0px;
+    }
+    .about .meet .meet-box{
+        width:100vw;
+        height: 360px;
+        margin:30px 0px;
+    }   
+    .about .meet .meet-box h6{
+        font-size:15px;
+    }   
+
+    .about .meet .meet-box img{
+        width: 74vw;
+        height: 270px;
+    } 
+    .about .meet .meet-box .details{
+        width: 64vw;
+        padding: 10px;
+        position: absolute;
+        bottom:-50px;
+        left:18vw;
+    }
+    #val1, #val2, #val3, #val4, #val5, #val6{
+        padding:15px 0px;
+        width: 160px;
+        font-size:15px;
+    }
+    .our-values .container .row img{
+        height:320px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .about .meet .meet-box img{
+        width: 84vw;
+        height: 270px;
+    } 
+    .about .meet .meet-box h6{
+        font-size:14px;
+    } 
+    .about .meet .meet-box .details{
+        width: 74vw;
+        left:13vw;
+    }
+    #val1, #val2, #val3, #val4, #val5, #val6{
+        padding:15px 0px;
+        width: 150px;
+        font-size:14px;
+    }
+    .our-values .paragraph{
+        font-size:14px;
+    }
+    .our-values .container .row img{
+        height:280px;
+    }
+}
+
+
+@media only screen and (max-height: 640px) {
+    .about h1{
+        font-size: 32px;
+    }
+    .about h2{
+        font-size: 25px;
+    }
+
+    .about h3{
+        font-size: 20px;
+    }
+
+    .about h6{
+        font-size: 15px;
+    }
+
+    .about p{
+        font-size: 15px;
+    }
+    .about .boxes .row p{
+        font-size:14px;
+    }
+    .about .meet nav li a{
+        font-size: 12px;
+    }
+
+    .about .meet nav li{
+        margin-top:10px;
+        margin-bottom:10px;
     }
 }
